@@ -1,0 +1,55 @@
+import type { Phrase } from '@/types/content'
+
+/** Getting around, emergencies, numbers and times. */
+export const HELP_PHRASES: Phrase[] = [
+  // ----------------------------------------------------------- orientamento
+  { id: 'ori-01', russian: 'Извините, где туалет?', italian: 'Mi scusi, dov\'è il bagno?', transliteration: 'izvinìte, gde tualèt', category: 'orientamento', difficulty: 1, keywords: ['izvinite', 'gde', 'tualet'], audioText: 'Извините, где туалет?', distractors: ['метро', 'спасибо'] },
+  { id: 'ori-02', russian: 'Как пройти в центр?', italian: 'Come si arriva in centro (a piedi)?', transliteration: 'kak prajtì f tsentr', category: 'orientamento', difficulty: 3, keywords: ['kak', 'tsentr'], audioText: 'Как пройти в центр?' },
+  { id: 'ori-03', russian: 'Это далеко отсюда?', italian: 'È lontano da qui?', transliteration: 'èta dalikò atsjùda', category: 'orientamento', difficulty: 3, keywords: ['daleko'], audioText: 'Это далеко отсюда?' },
+  { id: 'ori-04', russian: 'Идите прямо.', italian: 'Vada dritto.', transliteration: 'idìte prjàma', category: 'orientamento', difficulty: 2, keywords: ['idti', 'pryamo'], audioText: 'Идите прямо.', notes: 'Risposta tipica: imparala per capirla, non solo per dirla.' },
+  { id: 'ori-05', russian: 'Поверните направо.', italian: 'Giri a destra.', transliteration: 'pavirnìte napràva', category: 'orientamento', difficulty: 3, keywords: ['povernut', 'pravyy'], audioText: 'Поверните направо.' },
+  { id: 'ori-06', russian: 'Поверните налево.', italian: 'Giri a sinistra.', transliteration: 'pavirnìte nalèva', category: 'orientamento', difficulty: 3, keywords: ['povernut', 'levyy'], audioText: 'Поверните налево.' },
+  { id: 'ori-07', russian: 'Это рядом.', italian: 'È qui vicino.', transliteration: 'èta rjàdam', category: 'orientamento', difficulty: 2, keywords: ['blizko'], audioText: 'Это рядом.' },
+  { id: 'ori-08', russian: 'Покажите на карте, пожалуйста.', italian: 'Me lo mostri sulla mappa, per favore.', transliteration: 'pakazhỳte na kàrte, pazhàlusta', category: 'orientamento', difficulty: 3, keywords: ['pokazat', 'karta'], audioText: 'Покажите на карте, пожалуйста.' },
+  { id: 'ori-09', russian: 'Я заблудился.', italian: 'Mi sono perso.', transliteration: 'ja zabludìlsja', category: 'orientamento', difficulty: 3, keywords: ['poteryat'], audioText: 'Я заблудился.' },
+  { id: 'ori-10', russian: 'Где я нахожусь?', italian: 'Dove mi trovo?', transliteration: 'gde ja nahazhùs', category: 'orientamento', difficulty: 4, keywords: ['gde'], audioText: 'Где я нахожусь?' },
+  { id: 'ori-11', russian: 'Как называется эта улица?', italian: 'Come si chiama questa via?', transliteration: 'kak nazyvàjitsa èta ùlitsa', category: 'orientamento', difficulty: 4, keywords: ['kak', 'ulitsa'], audioText: 'Как называется эта улица?' },
+  { id: 'ori-12', russian: 'Сколько идти пешком?', italian: 'Quanto ci vuole a piedi?', transliteration: 'skòl\'ka ittì pishkòm', category: 'orientamento', difficulty: 4, keywords: ['skolko', 'idti'], audioText: 'Сколько идти пешком?' },
+  { id: 'ori-13', russian: 'Где ближайший банкомат?', italian: 'Dov\'è il bancomat più vicino?', transliteration: 'gde blizhàjshij bankamàt', category: 'orientamento', difficulty: 3, keywords: ['gde', 'blizhayshiy', 'bankomat'], audioText: 'Где ближайший банкомат?', distractors: ['аптека', 'далеко'] },
+  { id: 'ori-14', russian: 'Где ближайшая аптека?', italian: 'Dov\'è la farmacia più vicina?', transliteration: 'gde blizhàjshaja aptèka', category: 'orientamento', difficulty: 3, keywords: ['gde', 'blizhayshiy', 'apteka'], audioText: 'Где ближайшая аптека?' },
+  { id: 'ori-15', russian: 'Где остановка автобуса?', italian: 'Dov\'è la fermata dell\'autobus?', transliteration: 'gde astanòvka aftòbusa', category: 'orientamento', difficulty: 3, keywords: ['gde', 'ostanovka', 'avtobus'], audioText: 'Где остановка автобуса?' },
+  { id: 'ori-16', russian: 'Извините, вы не подскажете?', italian: 'Mi scusi, mi può indicare?', transliteration: 'izvinìte, vy ni patskàzhyte', category: 'orientamento', difficulty: 4, keywords: ['izvinite'], audioText: 'Извините, вы не подскажете?', notes: 'Modo educatissimo di attaccare bottone per chiedere indicazioni.' },
+
+  // -------------------------------------------------------------- emergenze
+  { id: 'emg-01', russian: 'Помогите!', italian: 'Aiuto!', transliteration: 'pamagìte', category: 'emergenze', difficulty: 2, keywords: ['pomogite'], audioText: 'Помогите!' },
+  { id: 'emg-02', russian: 'Вызовите скорую!', italian: 'Chiami un\'ambulanza!', transliteration: 'vỳzavite skòruju', category: 'emergenze', difficulty: 3, keywords: ['skoraya'], audioText: 'Вызовите скорую!' },
+  { id: 'emg-03', russian: 'Вызовите полицию!', italian: 'Chiami la polizia!', transliteration: 'vỳzavite palìtsyju', category: 'emergenze', difficulty: 3, keywords: ['politsiya'], audioText: 'Вызовите полицию!' },
+  { id: 'emg-04', russian: 'Мне нужен врач.', italian: 'Ho bisogno di un medico.', transliteration: 'mne nùzhyn vrach', category: 'emergenze', difficulty: 3, keywords: ['nuzhno', 'vrach'], audioText: 'Мне нужен врач.', distractors: ['такси', 'где'] },
+  { id: 'emg-05', russian: 'Я плохо себя чувствую.', italian: 'Mi sento male.', transliteration: 'ja plòha sibjà chùstvuju', category: 'emergenze', difficulty: 4, keywords: ['plokho'], audioText: 'Я плохо себя чувствую.' },
+  { id: 'emg-06', russian: 'У меня болит голова.', italian: 'Mi fa male la testa.', transliteration: 'u minjà balìt galavà', category: 'emergenze', difficulty: 3, keywords: ['bolet', 'golova'], audioText: 'У меня болит голова.' },
+  { id: 'emg-07', russian: 'У меня болит живот.', italian: 'Mi fa male la pancia.', transliteration: 'u minjà balìt zhyvòt', category: 'emergenze', difficulty: 3, keywords: ['bolet', 'zhivot'], audioText: 'У меня болит живот.' },
+  { id: 'emg-08', russian: 'Я потерял паспорт.', italian: 'Ho perso il passaporto.', transliteration: 'ja patirjàl pàspart', category: 'emergenze', difficulty: 3, keywords: ['poteryat', 'pasport'], audioText: 'Я потерял паспорт.', distractors: ['телефон', 'нашёл'] },
+  { id: 'emg-09', russian: 'У меня украли сумку.', italian: 'Mi hanno rubato la borsa.', transliteration: 'u minjà ukràli sùmku', category: 'emergenze', difficulty: 4, keywords: ['krazha', 'sumka'], audioText: 'У меня украли сумку.' },
+  { id: 'emg-10', russian: 'Где ближайшая больница?', italian: 'Dov\'è l\'ospedale più vicino?', transliteration: 'gde blizhàjshaja balnìtsa', category: 'emergenze', difficulty: 3, keywords: ['gde', 'bolnitsa'], audioText: 'Где ближайшая больница?' },
+  { id: 'emg-11', russian: 'У меня разрядился телефон.', italian: 'Mi si è scaricato il telefono.', transliteration: 'u minjà razrjadìlsja tilifòn', category: 'emergenze', difficulty: 4, keywords: ['telefon', 'zaryadka'], audioText: 'У меня разрядился телефон.' },
+  { id: 'emg-12', russian: 'Можно позвонить?', italian: 'Posso fare una telefonata?', transliteration: 'mòzhna pazvanìt', category: 'emergenze', difficulty: 3, keywords: ['mozhno', 'zvonit'], audioText: 'Можно позвонить?' },
+  { id: 'emg-13', russian: 'Мне нужна помощь.', italian: 'Ho bisogno di aiuto.', transliteration: 'mne nuzhnà pòmashch', category: 'emergenze', difficulty: 3, keywords: ['nuzhno', 'pomoshch'], audioText: 'Мне нужна помощь.' },
+  { id: 'emg-14', russian: 'Позвоните в посольство Италии.', italian: 'Chiami l\'ambasciata italiana.', transliteration: 'pazvanìte f pasòlstva Itàlii', category: 'emergenze', difficulty: 5, keywords: ['zvonit', 'posolstvo', 'italiya'], audioText: 'Позвоните в посольство Италии.' },
+  { id: 'emg-15', russian: 'У меня есть страховка.', italian: 'Ho l\'assicurazione.', transliteration: 'u minjà jest strahòvka', category: 'emergenze', difficulty: 3, keywords: ['strakhovka'], audioText: 'У меня есть страховка.' },
+  { id: 'emg-16', russian: 'Мне нужно лекарство.', italian: 'Mi serve una medicina.', transliteration: 'mne nùzhna likàrstva', category: 'emergenze', difficulty: 3, keywords: ['nuzhno', 'lekarstvo'], audioText: 'Мне нужно лекарство.' },
+  { id: 'emg-17', russian: 'Осторожно!', italian: 'Attenzione!', transliteration: 'astaròzhna', category: 'emergenze', difficulty: 2, keywords: ['ostorozhno'], audioText: 'Осторожно!' },
+
+  // ------------------------------------------------------------ numeri/orari
+  { id: 'num-01', russian: 'Сколько времени?', italian: 'Che ore sono?', transliteration: 'skòl\'ka vrèmini', category: 'numeri-tempo', difficulty: 2, keywords: ['skolko', 'vremya'], audioText: 'Сколько времени?', distractors: ['стоит', 'где'] },
+  { id: 'num-02', russian: 'Который час?', italian: 'Che ora è?', transliteration: 'katòryj chas', category: 'numeri-tempo', difficulty: 3, keywords: ['chas'], audioText: 'Который час?' },
+  { id: 'num-03', russian: 'Во сколько?', italian: 'A che ora?', transliteration: 'va skòl\'ka', category: 'numeri-tempo', difficulty: 2, keywords: ['skolko'], audioText: 'Во сколько?' },
+  { id: 'num-04', russian: 'В десять часов.', italian: 'Alle dieci.', transliteration: 'v dèsjat chisòf', category: 'numeri-tempo', difficulty: 2, keywords: ['desyat', 'chas'], audioText: 'В десять часов.' },
+  { id: 'num-05', russian: 'Через пять минут.', italian: 'Fra cinque minuti.', transliteration: 'chèris pjat minùt', category: 'numeri-tempo', difficulty: 3, keywords: ['pyat', 'minuta'], audioText: 'Через пять минут.' },
+  { id: 'num-06', russian: 'Полчаса.', italian: 'Mezz\'ora.', transliteration: 'polchisà', category: 'numeri-tempo', difficulty: 3, keywords: ['polovina', 'chas'], audioText: 'Полчаса.' },
+  { id: 'num-07', russian: 'Завтра утром.', italian: 'Domani mattina.', transliteration: 'zàvtra ùtram', category: 'numeri-tempo', difficulty: 2, keywords: ['zavtra', 'utro'], audioText: 'Завтра утром.' },
+  { id: 'num-08', russian: 'Вчера вечером.', italian: 'Ieri sera.', transliteration: 'vchirà vècheram', category: 'numeri-tempo', difficulty: 2, keywords: ['vchera', 'vecher'], audioText: 'Вчера вечером.' },
+  { id: 'num-09', russian: 'В понедельник.', italian: 'Lunedì.', transliteration: 'f panidèlnik', category: 'numeri-tempo', difficulty: 3, keywords: ['ponedelnik'], audioText: 'В понедельник.' },
+  { id: 'num-10', russian: 'Сколько это займёт?', italian: 'Quanto tempo ci vuole?', transliteration: 'skòl\'ka èta zajmyòt', category: 'numeri-tempo', difficulty: 4, keywords: ['skolko', 'eto'], audioText: 'Сколько это займёт?' },
+  { id: 'num-11', russian: 'Мы опаздываем.', italian: 'Siamo in ritardo.', transliteration: 'my apàzdyvajim', category: 'numeri-tempo', difficulty: 4, keywords: ['opozdat', 'my'], audioText: 'Мы опаздываем.' },
+  { id: 'num-12', russian: 'Ещё рано.', italian: 'È ancora presto.', transliteration: 'jishchò rànа', category: 'numeri-tempo', difficulty: 2, keywords: ['eshchyo', 'rano'], audioText: 'Ещё рано.' },
+]

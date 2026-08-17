@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "react-perf", "typescript", "unicorn", "oxc", "import"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es2024": true
+  },
+  "rules": {
+    "no-console": "off",
+
+    // The automatic JSX runtime is in use, so React needs no import.
+    "react/react-in-jsx-scope": "off",
+
+    // Side-effect imports are intentional here: the CSS entry point and the
+    // fake-indexeddb polyfill in the test setup.
+    "import/no-unassigned-import": "off",
+
+    // The DB writes in these loops are deliberately sequential: they read
+    // back what the previous iteration wrote.
+    "no-await-in-loop": "off",
+
+    // Re-rendering cost is not the constraint in this app; these rules fight
+    // ordinary inline handlers on every button.
+    "react-perf/jsx-no-new-object-as-prop": "off",
+    "react-perf/jsx-no-new-array-as-prop": "off",
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    "react-perf/jsx-no-jsx-as-prop": "off",
+
+    "typescript/no-explicit-any": "error"
+  },
+  "ignorePatterns": ["dist", "dev-dist", "node_modules", "public"],
+  "overrides": [
+    {
+      // Dexie's fluent `Collection.reverse()` is not `Array.prototype.reverse`,
+      // so the immutability rule misfires on the query builder.
+      "files": ["src/db/progressRepo.ts"],
+      "rules": {
+        "unicorn/no-array-reverse": "off"
+      }
+    },
+    {
+      // `SpeechSynthesisUtterance` / `SpeechRecognition` are one-shot objects
+      // with exactly one handler each by design.
+      "files": ["src/services/speech.ts", "src/services/recognition.ts"],
+      "rules": {
+        "unicorn/prefer-add-event-listener": "off"
+      }
+    }
+  ]
+}
