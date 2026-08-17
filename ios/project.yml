@@ -1,0 +1,101 @@
+# XcodeGen specification for SpasiBoh!
+#
+# This file is the source of truth for the Xcode project. SpasiBoh.xcodeproj is
+# generated from it and is gitignored — never edit the project in Xcode's UI and
+# expect it to stick, and never commit the .pbxproj.
+#
+#   brew install xcodegen        # once
+#   cd ios && xcodegen generate  # after changing this file, or on a fresh clone
+
+name: SpasiBoh
+options:
+  bundleIdPrefix: dev.spasiboh
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    # Unsigned simulator builds — no paid team needed to run this.
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGNING_ALLOWED: "NO"
+    ENABLE_USER_SCRIPT_SANDBOXING: "YES"
+    SWIFT_STRICT_CONCURRENCY: complete
+
+packages:
+  SpasiBohCore:
+    path: SpasiBohCore
+
+targets:
+  SpasiBoh:
+    type: application
+    platform: iOS
+    sources:
+      - path: SpasiBoh
+    dependencies:
+      - package: SpasiBohCore
+        product: SpasiBohCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.spasiboh.app
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: "YES"
+        # Portrait-first: this is a phone trainer, and rotating mid-drill
+        # helps nobody.
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_CFBundleDisplayName: SpasiBoh!
+        # Permission strings must explain the why, and are shown verbatim by
+        # iOS. Localized copies live in InfoPlist.xcstrings.
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: >-
+          SpasiBoh! usa il microfono solo per ascoltare la tua pronuncia durante
+          gli esercizi. Nessuna registrazione lascia il telefono.
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: >-
+          Il riconoscimento vocale serve a capire se hai pronunciato la parola
+          giusta. L'analisi resta sul dispositivo quando possibile.
+
+  SpasiBohTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SpasiBohTests
+    dependencies:
+      - target: SpasiBoh
+      - package: SpasiBohCore
+        product: SpasiBohCore
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: "YES"
+
+  SpasiBohUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SpasiBohUITests
+    dependencies:
+      - target: SpasiBoh
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: "YES"
+
+schemes:
+  SpasiBoh:
+    build:
+      targets:
+        SpasiBoh: all
+        SpasiBohTests: [test]
+        SpasiBohUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      targets:
+        - SpasiBohTests
+        - SpasiBohUITests
