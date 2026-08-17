@@ -1,0 +1,237 @@
+[
+ {
+  "id": "ru_no_articles",
+  "language": "ru",
+  "title": {
+   "it": "Il russo non ha articoli",
+   "ru": "В русском нет артиклей"
+  },
+  "body": {
+   "it": "Non esistono «il», «la», «un». Non si traducono: si tolgono e basta.",
+   "ru": "Артиклей нет вовсе. Их не переводят — их просто нет."
+  },
+  "example": {
+   "it": "«Il libro è sul tavolo» → «Книга на столе».",
+   "ru": "«Il libro è sul tavolo» → «Книга на столе»."
+  },
+  "unlockXP": 0
+ },
+ {
+  "id": "ru_no_present_be",
+  "language": "ru",
+  "title": {
+   "it": "«Essere» sparisce al presente",
+   "ru": "Глагол «быть» в настоящем не нужен"
+  },
+  "body": {
+   "it": "Al presente il verbo essere non si scrive. «Io sono italiano» diventa «Я итальянец».",
+   "ru": "В настоящем времени глагол «быть» опускается."
+  },
+  "example": {
+   "it": "«Sono a casa» → «Я дома».",
+   "ru": "«Sono a casa» → «Я дома»."
+  },
+  "unlockXP": 30
+ },
+ {
+  "id": "ru_stress",
+  "language": "ru",
+  "title": {
+   "it": "L'accento cambia tutto",
+   "ru": "Ударение решает всё"
+  },
+  "body": {
+   "it": "L'accento russo è imprevedibile, non si scrive, e sposta il suono delle vocali. Va imparato insieme alla parola, non dopo.",
+   "ru": "Ударение непредсказуемо и не пишется, но меняет звучание гласных."
+  },
+  "example": {
+   "it": "за́мок (castello) / замо́к (serratura)",
+   "ru": "за́мок (castello) / замо́к (serratura)"
+  },
+  "unlockXP": 60
+ },
+ {
+  "id": "ru_cases",
+  "language": "ru",
+  "title": {
+   "it": "Sei casi",
+   "ru": "Шесть падежей"
+  },
+  "body": {
+   "it": "La funzione della parola nella frase si vede dalla desinenza, non dall'ordine. Per questo l'ordine delle parole è molto più libero che in italiano.",
+   "ru": "Роль слова в предложении показывает окончание, а не порядок слов."
+  },
+  "example": {
+   "it": "«Вижу маму» — la desinenza dice chi vede chi.",
+   "ru": "«Вижу маму» — окончание показывает, кто кого видит."
+  },
+  "unlockXP": 120
+ },
+ {
+  "id": "ru_verbs_aspect",
+  "language": "ru",
+  "title": {
+   "it": "Ogni verbo viene in coppia",
+   "ru": "Глаголы ходят парами"
+  },
+  "body": {
+   "it": "I verbi russi hanno due forme: una per l'azione in corso o ripetuta, una per l'azione portata a termine. Non è il nostro passato prossimo contro imperfetto, ma ci somiglia.",
+   "ru": "У глагола две формы: несовершенная и совершенная."
+  },
+  "example": {
+   "it": "читать (leggere) / прочитать (finire di leggere)",
+   "ru": "читать / прочитать"
+  },
+  "unlockXP": 200
+ },
+ {
+  "id": "ru_yo",
+  "language": "ru",
+  "title": {
+   "it": "La ё che non si scrive",
+   "ru": "Буква ё, которую не пишут"
+  },
+  "body": {
+   "it": "Nei testi normali la ё è quasi sempre scritta е. Si legge comunque «jo» ed è sempre accentata.",
+   "ru": "В обычных текстах ё почти всегда пишут как е, но читается она «йо» и всегда под ударением."
+  },
+  "example": {
+   "it": "ещё si trova scritto «еще».",
+   "ru": "«ещё» часто пишут «еще»."
+  },
+  "unlockXP": 260
+ },
+ {
+  "id": "ru_polite",
+  "language": "ru",
+  "title": {
+   "it": "Пожалуйста fa due lavori",
+   "ru": "«Пожалуйста» работает дважды"
+  },
+  "body": {
+   "it": "Vuol dire «per favore» e anche «prego» come risposta a «grazie».",
+   "ru": "Это и «пожалуйста» при просьбе, и ответ на «спасибо»."
+  },
+  "example": null,
+  "unlockXP": 320
+ },
+ {
+  "id": "it_gender",
+  "language": "it",
+  "title": {
+   "it": "Tutto ha un genere",
+   "ru": "У всего есть род"
+  },
+  "body": {
+   "it": "Ogni sostantivo è maschile o femminile, e articolo e aggettivo si accordano. Non c'è il neutro del russo.",
+   "ru": "Каждое существительное мужского или женского рода; артикль и прилагательное согласуются. Среднего рода, как в русском, нет."
+  },
+  "example": {
+   "it": "il libro rosso / la casa rossa",
+   "ru": "il libro rosso / la casa rossa"
+  },
+  "unlockXP": 0
+ },
+ {
+  "id": "it_articles",
+  "language": "it",
+  "title": {
+   "it": "Gli articoli",
+   "ru": "Артикли"
+  },
+  "body": {
+   "it": "L'italiano ha articoli determinativi e indeterminativi, e la forma cambia con la lettera che segue: il, lo, l', la, i, gli, le. Non esistono in russo, quindi vanno imparati a memoria.",
+   "ru": "В итальянском есть определённые и неопределённые артикли, и форма зависит от следующего звука. В русском их нет, поэтому запоминать приходится отдельно."
+  },
+  "example": {
+   "it": "lo studente, l'amico, gli zaini",
+   "ru": "lo studente, l'amico, gli zaini"
+  },
+  "unlockXP": 30
+ },
+ {
+  "id": "it_double_consonants",
+  "language": "it",
+  "title": {
+   "it": "Le doppie si sentono",
+   "ru": "Двойные согласные слышны"
+  },
+  "body": {
+   "it": "La consonante doppia si tiene più a lungo e distingue parole diverse. Pronunciarla come singola cambia quello che hai detto.",
+   "ru": "Двойная согласная тянется дольше и различает слова."
+  },
+  "example": {
+   "it": "nono (nono) / nonno (nonno)",
+   "ru": "nono (девятый) / nonno (дедушка)"
+  },
+  "unlockXP": 60
+ },
+ {
+  "id": "it_stress_written",
+  "language": "it",
+  "title": {
+   "it": "L'accento scritto",
+   "ru": "Письменное ударение"
+  },
+  "body": {
+   "it": "L'accento si scrive solo quando cade sull'ultima vocale. Negli altri casi va saputo.",
+   "ru": "Ударение пишется, только если падает на последний гласный. В остальных случаях его надо знать."
+  },
+  "example": {
+   "it": "città, perché, però",
+   "ru": "città, perché, però"
+  },
+  "unlockXP": 120
+ },
+ {
+  "id": "it_verbs",
+  "language": "it",
+  "title": {
+   "it": "Il verbo dice già chi",
+   "ru": "Глагол уже называет лицо"
+  },
+  "body": {
+   "it": "La desinenza indica la persona, quindi il pronome soggetto di solito si omette.",
+   "ru": "Окончание показывает лицо, поэтому местоимение обычно опускают."
+  },
+  "example": {
+   "it": "«Parlo italiano», non «Io parlo italiano».",
+   "ru": "«Parlo italiano», а не «Io parlo italiano»."
+  },
+  "unlockXP": 200
+ },
+ {
+  "id": "it_lei",
+  "language": "it",
+  "title": {
+   "it": "Il «lei» di cortesia",
+   "ru": "Вежливое «Lei»"
+  },
+  "body": {
+   "it": "La forma di cortesia usa la terza persona femminile singolare, anche parlando a un uomo.",
+   "ru": "Вежливая форма — третье лицо женского рода единственного числа, даже если собеседник мужчина."
+  },
+  "example": {
+   "it": "«Lei come si chiama?»",
+   "ru": "«Lei come si chiama?»"
+  },
+  "unlockXP": 260
+ },
+ {
+  "id": "it_false_friends",
+  "language": "it",
+  "title": {
+   "it": "Falsi amici",
+   "ru": "Ложные друзья"
+  },
+  "body": {
+   "it": "Alcune parole somigliano al russo ma non significano lo stesso.",
+   "ru": "Некоторые слова похожи на русские, но значат другое."
+  },
+  "example": {
+   "it": "«famiglia» non è «фамилия» (cognome): è «семья».",
+   "ru": "«famiglia» — это «семья», а не «фамилия»."
+  },
+  "unlockXP": 320
+ }
+]

@@ -12,6 +12,9 @@ public struct ContentStore: Sendable {
     public let letters: [CyrillicLetter]
     public let patterns: [ItalianPattern]
     public let scenarios: [Scenario]
+    public let idioms: [Idiom]
+    public let cultureCards: [CultureCard]
+    public let tips: [LanguageTip]
 
     private let conceptsByID: [String: Concept]
     private let sentencesByID: [String: Sentence]
@@ -21,13 +24,19 @@ public struct ContentStore: Sendable {
         sentences: [Sentence],
         letters: [CyrillicLetter],
         patterns: [ItalianPattern],
-        scenarios: [Scenario]
+        scenarios: [Scenario],
+        idioms: [Idiom] = [],
+        cultureCards: [CultureCard] = [],
+        tips: [LanguageTip] = []
     ) {
         self.concepts = concepts
         self.sentences = sentences
         self.letters = letters
         self.patterns = patterns
         self.scenarios = scenarios
+        self.idioms = idioms
+        self.cultureCards = cultureCards
+        self.tips = tips
         self.conceptsByID = Dictionary(concepts.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         self.sentencesByID = Dictionary(sentences.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
     }
@@ -48,6 +57,21 @@ public struct ContentStore: Sendable {
         case .itToRu: letters.sorted { $0.order < $1.order }.map(WarmupItem.letter)
         case .ruToIt: patterns.sorted { $0.order < $1.order }.map(WarmupItem.pattern)
         }
+    }
+
+    /// Culture cards written for this learner, cheapest to unlock first.
+    public func cultureCards(for direction: Direction) -> [CultureCard] {
+        cultureCards.filter { $0.audience == direction }.sorted { $0.unlockXP < $1.unlockXP }
+    }
+
+    /// Tips about the language being learned. A tip about Russian aspect is of
+    /// no use to someone learning Italian.
+    public func tips(for direction: Direction) -> [LanguageTip] {
+        tips.filter { $0.language == direction.target }.sorted { $0.unlockXP < $1.unlockXP }
+    }
+
+    public func idioms(for direction: Direction) -> [Idiom] {
+        idioms.filter { $0.language == direction.target }
     }
 
     /// Concepts in the order they should be introduced, by target-language
@@ -85,8 +109,11 @@ public struct ContentStore: Sendable {
             concepts: try decode([Concept].self, "concepts", bundle),
             sentences: try decode([Sentence].self, "sentences", bundle),
             letters: try decode([CyrillicLetter].self, "letters", bundle),
-            patterns: (try? decode([ItalianPattern].self, "patterns", bundle)) ?? [],
-            scenarios: try decode([Scenario].self, "scenarios", bundle)
+            patterns: try decode([ItalianPattern].self, "patterns", bundle),
+            scenarios: try decode([Scenario].self, "scenarios", bundle),
+            idioms: try decode([Idiom].self, "idioms", bundle),
+            cultureCards: try decode([CultureCard].self, "culture", bundle),
+            tips: try decode([LanguageTip].self, "tips", bundle)
         )
     }
 

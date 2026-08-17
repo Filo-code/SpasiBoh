@@ -127,19 +127,26 @@ struct ContentTests {
             #expect(Set(scenario.steps.map(\.id)).count == scenario.steps.count)
 
             for step in scenario.steps {
+                // Which language a step's options are written in depends on the
+                // scenario's audience: comprehension is answered in the
+                // learner's own language, choice in the one being learned.
+                // Hard-coding Italian and Russian here only held while the
+                // Italy set did not exist.
                 switch step.kind {
-                case .comprehension:
-                    #expect(!step.optionsIt.isEmpty, "\(step.id) has no options")
+                case .comprehension, .choice:
+                    let language = step.kind == .comprehension
+                        ? scenario.direction.native
+                        : scenario.direction.target
+                    let options = step.options(language)
+                    #expect(!options.isEmpty, "\(step.id) has no options in \(language.rawValue)")
                     if let correct = step.correctOption {
-                        #expect(correct >= 0 && correct < step.optionsIt.count, "\(step.id) option index out of range")
-                    }
-                case .choice:
-                    #expect(!step.optionsRu.isEmpty, "\(step.id) has no options")
-                    if let correct = step.correctOption {
-                        #expect(correct >= 0 && correct < step.optionsRu.count, "\(step.id) option index out of range")
+                        #expect(correct >= 0 && correct < options.count, "\(step.id) option index out of range")
                     }
                 case .build, .pronounce:
-                    #expect(step.targetRu != nil || step.targetIt != nil, "\(step.id) has no target line")
+                    #expect(
+                        step.target(scenario.direction.target) != nil,
+                        "\(step.id) has no target line in the language being learned"
+                    )
                 case .info:
                     break
                 }

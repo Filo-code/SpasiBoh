@@ -4,15 +4,15 @@ import SpasiBohCore
 @main
 struct SpasiBohApp: App {
     @State private var settings = AppSettings.load()
+    @State private var model = ProgressModel.live()
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(settings)
-                // The UI language follows the learning direction (§12): an
-                // Italian speaker learning Russian gets an Italian interface.
-                .environment(\.locale, Locale(identifier: settings.direction?.native.rawValue ?? "it"))
+                .environment(model)
                 .preferredColorScheme(.dark)
+                .tint(Theme.accent)
         }
     }
 }
@@ -48,9 +48,18 @@ final class AppSettings {
 
 struct RootView: View {
     @Environment(AppSettings.self) private var settings
+    @Environment(ProgressModel.self) private var model
 
     var body: some View {
-        if settings.direction == nil {
+        if model.content.concepts.isEmpty {
+            // Content is the app. Showing an empty but functional-looking
+            // interface would be worse than saying plainly that it is broken.
+            ContentUnavailableView(
+                S.contentFailed(settings.direction?.native ?? .italian),
+                systemImage: "exclamationmark.triangle",
+                description: Text(model.loadFailure ?? "")
+            )
+        } else if settings.direction == nil {
             OnboardingView()
         } else {
             HomeView()

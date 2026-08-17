@@ -1,0 +1,426 @@
+[
+ {
+  "id": "gli",
+  "kind": "digraph",
+  "pattern": "gli",
+  "pronunciation": "ль (мягкое, как в «Илья»)",
+  "soundKey": "ль",
+  "exampleWord": "famiglia",
+  "exampleWordTranslated": "семья",
+  "confusableWith": [
+   "li",
+   "gn"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "GLI non è G + L + I: è un suono solo, palatale.",
+   "ru": "GLI — это не Г+Л+И, а один мягкий звук, близкий к «ль» в «Илья»."
+  },
+  "order": 1
+ },
+ {
+  "id": "gn",
+  "kind": "digraph",
+  "pattern": "gn",
+  "pronunciation": "нь (как в «конь»)",
+  "soundKey": "нь",
+  "exampleWord": "signore",
+  "exampleWordTranslated": "господин",
+  "confusableWith": [
+   "gli",
+   "ni"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "GN è una sola consonante nasale palatale.",
+   "ru": "GN — один звук, мягкое «нь». Не «гн»."
+  },
+  "order": 2
+ },
+ {
+  "id": "sc_soft",
+  "kind": "digraph",
+  "pattern": "sci / sce",
+  "pronunciation": "ш",
+  "soundKey": "ш",
+  "exampleWord": "sciare",
+  "exampleWordTranslated": "кататься на лыжах",
+  "confusableWith": [
+   "sc_hard",
+   "s"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "SC davanti a I ed E suona come «sh».",
+   "ru": "SC перед I и E читается как «ш»: sciare — «шьяре»."
+  },
+  "order": 3
+ },
+ {
+  "id": "sc_hard",
+  "kind": "digraph",
+  "pattern": "sca / sco / scu / sch",
+  "pronunciation": "ск",
+  "soundKey": "ск",
+  "exampleWord": "scuola",
+  "exampleWordTranslated": "школа",
+  "confusableWith": [
+   "sc_soft"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "SC davanti ad A, O, U resta dura.",
+   "ru": "SC перед A, O, U читается «ск»: scuola — «скуола»."
+  },
+  "order": 4
+ },
+ {
+  "id": "c_soft",
+  "kind": "digraph",
+  "pattern": "ci / ce",
+  "pronunciation": "ч",
+  "soundKey": "ч",
+  "exampleWord": "ciao",
+  "exampleWordTranslated": "привет",
+  "confusableWith": [
+   "c_hard",
+   "ch"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "C davanti a I ed E suona «ch».",
+   "ru": "C перед I и E читается «ч»: ciao — «чао»."
+  },
+  "order": 5
+ },
+ {
+  "id": "c_hard",
+  "kind": "digraph",
+  "pattern": "ca / co / cu",
+  "pronunciation": "к",
+  "soundKey": "к",
+  "exampleWord": "casa",
+  "exampleWordTranslated": "дом",
+  "confusableWith": [
+   "c_soft"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "C davanti ad A, O, U suona «k».",
+   "ru": "C перед A, O, U читается «к»: casa — «каза»."
+  },
+  "order": 6
+ },
+ {
+  "id": "ch",
+  "kind": "digraph",
+  "pattern": "chi / che",
+  "pronunciation": "к",
+  "soundKey": "к",
+  "exampleWord": "chiave",
+  "exampleWordTranslated": "ключ",
+  "confusableWith": [
+   "c_soft"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "La H serve solo a mantenere il suono duro.",
+   "ru": "H здесь немая: она только сохраняет твёрдое «к». chiave — «кьяве»."
+  },
+  "order": 7
+ },
+ {
+  "id": "g_soft",
+  "kind": "digraph",
+  "pattern": "gi / ge",
+  "pronunciation": "дж",
+  "soundKey": "дж",
+  "exampleWord": "gelato",
+  "exampleWordTranslated": "мороженое",
+  "confusableWith": [
+   "g_hard",
+   "gh"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "G davanti a I ed E suona «dj».",
+   "ru": "G перед I и E читается «дж»: gelato — «джелато»."
+  },
+  "order": 8
+ },
+ {
+  "id": "g_hard",
+  "kind": "digraph",
+  "pattern": "ga / go / gu",
+  "pronunciation": "г",
+  "soundKey": "г",
+  "exampleWord": "gatto",
+  "exampleWordTranslated": "кот",
+  "confusableWith": [
+   "g_soft"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "G davanti ad A, O, U resta dura.",
+   "ru": "G перед A, O, U читается «г»: gatto — «гатто»."
+  },
+  "order": 9
+ },
+ {
+  "id": "gh",
+  "kind": "digraph",
+  "pattern": "ghi / ghe",
+  "pronunciation": "г",
+  "soundKey": "г",
+  "exampleWord": "spaghetti",
+  "exampleWordTranslated": "спагетти",
+  "confusableWith": [
+   "g_soft"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "Come per CH, la H mantiene il suono duro.",
+   "ru": "Как и в CH, H сохраняет твёрдое «г»: spaghetti — «спагетти»."
+  },
+  "order": 10
+ },
+ {
+  "id": "qu",
+  "kind": "digraph",
+  "pattern": "qu",
+  "pronunciation": "ку (кв)",
+  "soundKey": "ку",
+  "exampleWord": "quattro",
+  "exampleWordTranslated": "четыре",
+  "confusableWith": [
+   "c_hard"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "QU si legge sempre «ku», mai «kv» pieno.",
+   "ru": "QU всегда «ку» с очень коротким «у»: quattro — «куаттро»."
+  },
+  "order": 11
+ },
+ {
+  "id": "z_voiceless",
+  "kind": "vowelOrZ",
+  "pattern": "z (sorda)",
+  "pronunciation": "ц",
+  "soundKey": "ц",
+  "exampleWord": "pizza",
+  "exampleWordTranslated": "пицца",
+  "confusableWith": [
+   "z_voiced"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "La Z sorda suona «ts».",
+   "ru": "Глухая Z читается «ц»: pizza — «пицца»."
+  },
+  "order": 12
+ },
+ {
+  "id": "z_voiced",
+  "kind": "vowelOrZ",
+  "pattern": "z (sonora)",
+  "pronunciation": "дз",
+  "soundKey": "дз",
+  "exampleWord": "zero",
+  "exampleWordTranslated": "ноль",
+  "confusableWith": [
+   "z_voiceless"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "La Z sonora suona «dz». Non c'è una regola sicura: si impara parola per parola.",
+   "ru": "Звонкая Z читается «дз»: zero — «дзеро». Надёжного правила нет — запоминается со словом."
+  },
+  "order": 13
+ },
+ {
+  "id": "open_closed_e",
+  "kind": "vowelOrZ",
+  "pattern": "è / é",
+  "pronunciation": "открытое и закрытое «э»",
+  "soundKey": "э",
+  "exampleWord": "pèsca / pésca",
+  "exampleWordTranslated": "персик / рыбалка",
+  "confusableWith": [
+   "z_voiced"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "La E aperta e chiusa distingue alcune parole scritte uguali.",
+   "ru": "Открытое и закрытое «э» различают слова, которые пишутся одинаково: pèsca (персик) и pésca (рыбалка)."
+  },
+  "order": 14
+ },
+ {
+  "id": "double_ll",
+  "kind": "doubleConsonant",
+  "pattern": "pala / palla",
+  "pronunciation": "долгая согласная",
+  "soundKey": "лл",
+  "exampleWord": "palla",
+  "exampleWordTranslated": "мяч",
+  "confusableWith": [
+   "double_tt"
+  ],
+  "minimalPair": {
+   "short": "pala",
+   "shortMeaning": {
+    "it": "pala — badile",
+    "ru": "лопата"
+   },
+   "long": "palla",
+   "longMeaning": {
+    "it": "palla — sfera da gioco",
+    "ru": "мяч"
+   }
+  },
+  "note": {
+   "it": "La consonante doppia va tenuta più a lungo: cambia la parola.",
+   "ru": "Двойная согласная тянется дольше — и это меняет слово."
+  },
+  "order": 15
+ },
+ {
+  "id": "double_tt",
+  "kind": "doubleConsonant",
+  "pattern": "sete / sette",
+  "pronunciation": "долгая согласная",
+  "soundKey": "тт",
+  "exampleWord": "sette",
+  "exampleWordTranslated": "семь",
+  "confusableWith": [
+   "double_ll"
+  ],
+  "minimalPair": {
+   "short": "sete",
+   "shortMeaning": {
+    "it": "sete — bisogno di bere",
+    "ru": "жажда"
+   },
+   "long": "sette",
+   "longMeaning": {
+    "it": "sette — il numero 7",
+    "ru": "семь"
+   }
+  },
+  "note": {
+   "it": "«Ho sete» e «ho sette» non sono la stessa cosa.",
+   "ru": "«Ho sete» (хочу пить) и «sette» (семь) — разные слова."
+  },
+  "order": 16
+ },
+ {
+  "id": "double_ss",
+  "kind": "doubleConsonant",
+  "pattern": "casa / cassa",
+  "pronunciation": "долгая согласная",
+  "soundKey": "сс",
+  "exampleWord": "cassa",
+  "exampleWordTranslated": "касса",
+  "confusableWith": [
+   "double_nn"
+  ],
+  "minimalPair": {
+   "short": "casa",
+   "shortMeaning": {
+    "it": "casa — abitazione",
+    "ru": "дом"
+   },
+   "long": "cassa",
+   "longMeaning": {
+    "it": "cassa — dove si paga",
+    "ru": "касса"
+   }
+  },
+  "note": {
+   "it": "Anche la S singola fra vocali si sonorizza: «casa» suona «kaza».",
+   "ru": "Одиночная S между гласными звучит звонко: casa — «каза», а cassa — «касса»."
+  },
+  "order": 17
+ },
+ {
+  "id": "double_nn",
+  "kind": "doubleConsonant",
+  "pattern": "nono / nonno",
+  "pronunciation": "долгая согласная",
+  "soundKey": "нн",
+  "exampleWord": "nonno",
+  "exampleWordTranslated": "дедушка",
+  "confusableWith": [
+   "double_ss"
+  ],
+  "minimalPair": {
+   "short": "nono",
+   "shortMeaning": {
+    "it": "nono — il numero 9 ordinale",
+    "ru": "девятый"
+   },
+   "long": "nonno",
+   "longMeaning": {
+    "it": "nonno — il padre del padre",
+    "ru": "дедушка"
+   }
+  },
+  "note": null,
+  "order": 18
+ },
+ {
+  "id": "stress_penult",
+  "kind": "stress",
+  "pattern": "stress по умолчанию",
+  "pronunciation": "ударение на предпоследнем слоге",
+  "soundKey": "—",
+  "exampleWord": "amìco",
+  "exampleWordTranslated": "друг",
+  "confusableWith": [
+   "stress_irregular"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "La maggior parte delle parole ha l'accento sulla penultima sillaba.",
+   "ru": "У большинства слов ударение на предпоследнем слоге — и оно не пишется."
+  },
+  "order": 19
+ },
+ {
+  "id": "stress_irregular",
+  "kind": "stress",
+  "pattern": "àbito, tèlefono",
+  "pronunciation": "ударение на третьем слоге с конца",
+  "soundKey": "—",
+  "exampleWord": "tèlefono",
+  "exampleWordTranslated": "телефон",
+  "confusableWith": [
+   "stress_penult"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "Molte parole comuni sono sdrucciole: l'accento cade sulla terzultima.",
+   "ru": "Многие частые слова имеют ударение на третьем слоге с конца: tèlefono, àbito, mèdico."
+  },
+  "order": 20
+ },
+ {
+  "id": "stress_final",
+  "kind": "stress",
+  "pattern": "città, perché",
+  "pronunciation": "ударение на последнем слоге (пишется)",
+  "soundKey": "—",
+  "exampleWord": "città",
+  "exampleWordTranslated": "город",
+  "confusableWith": [
+   "stress_irregular"
+  ],
+  "minimalPair": null,
+  "note": {
+   "it": "Quando l'accento cade sull'ultima vocale, si scrive.",
+   "ru": "Если ударение на последнем гласном, оно пишется: città, perché, caffè."
+  },
+  "order": 21
+ }
+]

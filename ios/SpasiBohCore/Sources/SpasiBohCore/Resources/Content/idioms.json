@@ -1,0 +1,260 @@
+[
+ {
+  "id": "it_boh",
+  "language": "it",
+  "expression": "boh",
+  "pronunciation": "бо",
+  "literal": {
+   "it": "boh",
+   "ru": "«бо»"
+  },
+  "meaning": {
+   "it": "Non lo so, e non ho intenzione di indagare.",
+   "ru": "«Не знаю» — и выяснять не собираюсь."
+  },
+  "equivalent": "не знаю",
+  "register": "colloquial",
+  "usage": {
+   "it": "Risposta completa a una domanda. Da solo, senza altro.",
+   "ru": "Полноценный ответ на вопрос. Говорится отдельно, без продолжения."
+  },
+  "culturalNote": {
+   "it": "Dà il nome a questa app: «spasibo» + «boh».",
+   "ru": "Именно от него название приложения: «спасибо» + «boh»."
+  }
+ },
+ {
+  "id": "it_magari",
+  "language": "it",
+  "expression": "magari",
+  "pronunciation": "магари",
+  "literal": {
+   "it": "magari",
+   "ru": "«магари»"
+  },
+  "meaning": {
+   "it": "Se solo fosse vero — oppure «forse», secondo il tono.",
+   "ru": "«Хорошо бы!» — или «может быть», в зависимости от интонации."
+  },
+  "equivalent": "хоть бы",
+  "register": "neutral",
+  "usage": {
+   "it": "Da solo esprime un desiderio; in una frase significa «forse».",
+   "ru": "Отдельно — сильное желание; внутри фразы — «может быть»."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "it_figurati",
+  "language": "it",
+  "expression": "figurati",
+  "pronunciation": "фигурати",
+  "literal": {
+   "it": "figurati",
+   "ru": "«представь себе»"
+  },
+  "meaning": {
+   "it": "Ma no, non c'è di che.",
+   "ru": "«Да брось, не за что»."
+  },
+  "equivalent": "не за что",
+  "register": "informal",
+  "usage": {
+   "it": "Risposta a un grazie o a una scusa.",
+   "ru": "Ответ на «спасибо» или на извинение."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "it_in_bocca_al_lupo",
+  "language": "it",
+  "expression": "in bocca al lupo",
+  "pronunciation": "ин бокка ал лупо",
+  "literal": {
+   "it": "in bocca al lupo",
+   "ru": "«в пасть волку»"
+  },
+  "meaning": {
+   "it": "Buona fortuna.",
+   "ru": "«Удачи!»"
+  },
+  "equivalent": "ни пуха ни пера",
+  "register": "neutral",
+  "usage": {
+   "it": "Si risponde «crepi» — non «grazie».",
+   "ru": "Отвечают «crepi!», а не «grazie»."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "it_non_vedo_ora",
+  "language": "it",
+  "expression": "non vedo l'ora",
+  "pronunciation": "нон ведо лора",
+  "literal": {
+   "it": "non vedo l'ora",
+   "ru": "«не вижу часа»"
+  },
+  "meaning": {
+   "it": "Non sto nella pelle dall'attesa.",
+   "ru": "«Жду не дождусь»."
+  },
+  "equivalent": "жду не дождусь",
+  "register": "neutral",
+  "usage": {
+   "it": "Seguito da «di» + infinito.",
+   "ru": "Дальше идёт «di» + инфинитив."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "it_che_palle",
+  "language": "it",
+  "expression": "che palle",
+  "pronunciation": "ке палле",
+  "literal": {
+   "it": "che palle",
+   "ru": "«какие шары»"
+  },
+  "meaning": {
+   "it": "Che noia insopportabile.",
+   "ru": "«Какая тоска»."
+  },
+  "equivalent": "какая скука",
+  "register": "vulgar",
+  "usage": {
+   "it": "Volgare. Fra amici passa, altrove no.",
+   "ru": "Грубовато. Между друзьями нормально, в остальных случаях — нет."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "ru_davai",
+  "language": "ru",
+  "expression": "давай",
+  "pronunciation": "davàj",
+  "literal": {
+   "it": "dai / andiamo",
+   "ru": "«дай»"
+  },
+  "meaning": {
+   "it": "Ok, ci sentiamo — è anche un modo di chiudere una telefonata.",
+   "ru": "«Ну ладно, пока» — в том числе как способ закончить разговор."
+  },
+  "equivalent": "dai",
+  "register": "informal",
+  "usage": {
+   "it": "Serve a proporre, a incitare e a salutare. Il tono decide.",
+   "ru": "Служит и предложением, и подбадриванием, и прощанием. Решает интонация."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "ru_nu",
+  "language": "ru",
+  "expression": "ну",
+  "pronunciation": "nu",
+  "literal": {
+   "it": "beh",
+   "ru": "«ну»"
+  },
+  "meaning": {
+   "it": "Riempitivo che chiede all'altro di andare avanti.",
+   "ru": "Слово-заполнитель: просит собеседника продолжать."
+  },
+  "equivalent": "beh",
+  "register": "colloquial",
+  "usage": {
+   "it": "Onnipresente nel parlato, quasi assente nello scritto.",
+   "ru": "Постоянно в устной речи, почти не встречается в письменной."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "ru_kak_raz",
+  "language": "ru",
+  "expression": "как раз",
+  "pronunciation": "kak ràz",
+  "literal": {
+   "it": "proprio come",
+   "ru": "«как раз»"
+  },
+  "meaning": {
+   "it": "Esattamente, proprio quello che serviva.",
+   "ru": "«Именно то, что нужно»."
+  },
+  "equivalent": "proprio",
+  "register": "neutral",
+  "usage": {
+   "it": "Spesso all'inizio della frase.",
+   "ru": "Часто в начале фразы."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "ru_ni_puha",
+  "language": "ru",
+  "expression": "ни пуха ни пера",
+  "pronunciation": "ni pùha ni perà",
+  "literal": {
+   "it": "né piuma né penna",
+   "ru": "«ни пуха ни пера»"
+  },
+  "meaning": {
+   "it": "In bocca al lupo.",
+   "ru": "Пожелание удачи."
+  },
+  "equivalent": "in bocca al lupo",
+  "register": "informal",
+  "usage": {
+   "it": "Si risponde «к чёрту!» — «al diavolo».",
+   "ru": "Отвечают «к чёрту!»"
+  },
+  "culturalNote": {
+   "it": "Formula di caccia: augurare bene portava sfortuna, quindi si augurava male.",
+   "ru": "Охотничья формула: прямое пожелание удачи считалось дурной приметой."
+  }
+ },
+ {
+  "id": "ru_normalno",
+  "language": "ru",
+  "expression": "нормально",
+  "pronunciation": "narmàl'na",
+  "literal": {
+   "it": "normalmente",
+   "ru": "«нормально»"
+  },
+  "meaning": {
+   "it": "Bene, tutto a posto — non «così così».",
+   "ru": "«Хорошо», а не «так себе»."
+  },
+  "equivalent": "bene",
+  "register": "neutral",
+  "usage": {
+   "it": "Risposta standard a «come va?». Non è tiepida come sembra a un italiano.",
+   "ru": "Обычный ответ на «как дела?». Это не вялое «так себе»."
+  },
+  "culturalNote": null
+ },
+ {
+  "id": "ru_tak_i_byt",
+  "language": "ru",
+  "expression": "так и быть",
+  "pronunciation": "tak i byt'",
+  "literal": {
+   "it": "così sia",
+   "ru": "«так и быть»"
+  },
+  "meaning": {
+   "it": "E va bene, te lo concedo.",
+   "ru": "«Ладно уж, так и быть»."
+  },
+  "equivalent": "e va bene",
+  "register": "informal",
+  "usage": {
+   "it": "Concessione, spesso scherzosa.",
+   "ru": "Уступка, часто в шутку."
+  },
+  "culturalNote": null
+ }
+]

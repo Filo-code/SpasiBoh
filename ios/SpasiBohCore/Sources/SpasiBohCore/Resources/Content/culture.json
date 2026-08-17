@@ -1,0 +1,182 @@
+[
+ {
+  "id": "ru_patronymic",
+  "audience": "it-ru",
+  "title": {
+   "it": "Il patronimico",
+   "ru": "Отчество"
+  },
+  "body": {
+   "it": "Un nome russo completo ha tre parti: nome, patronimico (dal nome del padre) e cognome. Rivolgersi a qualcuno con nome + patronimico — «Ivan Petrovič» — è la forma rispettosa normale al lavoro e con le persone più anziane.",
+   "ru": "Полное русское имя состоит из трёх частей: имя, отчество и фамилия. Обращение по имени и отчеству — вежливая норма на работе и со старшими."
+  },
+  "symbolName": "person.text.rectangle",
+  "source": "Encyclopaedia Britannica, «Russian name»; Wikipedia, «Eastern Slavic naming customs»",
+  "unlockXP": 0
+ },
+ {
+  "id": "ru_shoes",
+  "audience": "it-ru",
+  "title": {
+   "it": "Le scarpe si tolgono",
+   "ru": "Обувь снимают"
+  },
+  "body": {
+   "it": "Entrando in una casa russa ci si toglie le scarpe. Spesso l'ospite offre delle pantofole. Non è una richiesta particolare: è semplicemente quello che si fa.",
+   "ru": "Входя в дом, в России снимают обувь. Хозяева обычно предлагают тапочки."
+  },
+  "symbolName": "shoe",
+  "source": "Wikipedia, «Russian traditions and superstitions»",
+  "unlockXP": 50
+ },
+ {
+  "id": "ru_flowers",
+  "audience": "it-ru",
+  "title": {
+   "it": "Fiori: sempre in numero dispari",
+   "ru": "Цветы — нечётное число"
+  },
+  "body": {
+   "it": "I mazzi di fiori si regalano in numero dispari. Il numero pari è riservato ai funerali. È una convenzione presa sul serio: contare i fiori prima di regalarli è normale.",
+   "ru": "Букеты дарят из нечётного числа цветов. Чётное число несут на похороны."
+  },
+  "symbolName": "leaf",
+  "source": "Wikipedia, «Russian traditions and superstitions»",
+  "unlockXP": 100
+ },
+ {
+  "id": "ru_tolyatti",
+  "audience": "it-ru",
+  "title": {
+   "it": "Togliatti, città russa",
+   "ru": "Тольятти"
+  },
+  "body": {
+   "it": "Sul Volga c'è una città di oltre 600.000 abitanti che si chiama Togliatti, dal nome del segretario del Partito Comunista Italiano Palmiro Togliatti, morto in URSS nel 1964. Ci si costruiscono le Lada, nate da un accordo con la FIAT.",
+   "ru": "На Волге есть город с населением более 600 тысяч человек — Тольятти, названный в честь лидера Итальянской компартии Пальмиро Тольятти. Там выпускают «Жигули», созданные по соглашению с FIAT."
+  },
+  "symbolName": "car",
+  "source": "Encyclopaedia Britannica, «Tolyatti»; Wikipedia, «AvtoVAZ»",
+  "unlockXP": 150
+ },
+ {
+  "id": "ru_tea",
+  "audience": "it-ru",
+  "title": {
+   "it": "Il tè non finisce mai",
+   "ru": "Чай не заканчивается"
+  },
+  "body": {
+   "it": "Il tè si beve tutto il giorno e si accompagna a qualcosa di dolce. Rifiutare del tutto l'offerta può sembrare freddo: accettarne anche solo una tazza è il gesto giusto.",
+   "ru": "Чай пьют весь день и обязательно с чем-то сладким. Полный отказ может показаться холодным."
+  },
+  "symbolName": "cup.and.saucer",
+  "source": "Wikipedia, «Russian tea culture»",
+  "unlockXP": 200
+ },
+ {
+  "id": "ru_ty_vy",
+  "audience": "it-ru",
+  "title": {
+   "it": "Ты e вы",
+   "ru": "«Ты» и «вы»"
+  },
+  "body": {
+   "it": "Come in italiano, il russo distingue il «tu» dal «lei»: ты con amici e coetanei, вы con sconosciuti, al lavoro e con persone più anziane. Il passaggio a ты si propone, non si dà per scontato.",
+   "ru": "Как и в итальянском, есть «ты» и «вы». Переход на «ты» предлагают, а не подразумевают."
+  },
+  "symbolName": "person.2",
+  "source": "Wikipedia, «T–V distinction»",
+  "unlockXP": 250
+ },
+ {
+  "id": "it_bar_coffee",
+  "audience": "ru-it",
+  "title": {
+   "it": "Il caffè si beve in piedi",
+   "ru": "Кофе пьют стоя"
+  },
+  "body": {
+   "it": "Al bar italiano si ordina alla cassa, si beve in piedi al banco e si esce. Sedersi al tavolino spesso costa di più: è il servizio, non il caffè.",
+   "ru": "В итальянском баре заказывают у кассы, пьют стоя у стойки и уходят. За столиком часто дороже — платят за обслуживание, а не за кофе."
+  },
+  "symbolName": "cup.and.saucer",
+  "source": "Wikipedia, «Italian coffee culture»; Codice del Consumo, listino prezzi al banco/tavolo",
+  "unlockXP": 0
+ },
+ {
+  "id": "it_cappuccino",
+  "audience": "ru-it",
+  "title": {
+   "it": "Il cappuccino è del mattino",
+   "ru": "Капучино — только утром"
+  },
+  "body": {
+   "it": "Il cappuccino si beve a colazione. Dopo pranzo gli italiani prendono un caffè — cioè un espresso. Nessuno vieta niente, ma ordinarlo alle tre del pomeriggio si nota.",
+   "ru": "Капучино пьют на завтрак. После обеда берут «caffè» — то есть эспрессо."
+  },
+  "symbolName": "mug",
+  "source": "Wikipedia, «Cappuccino»",
+  "unlockXP": 50
+ },
+ {
+  "id": "it_scontrino",
+  "audience": "ru-it",
+  "title": {
+   "it": "Lo scontrino",
+   "ru": "Чек"
+  },
+  "body": {
+   "it": "Lo scontrino fiscale va conservato uscendo dal locale. È un obbligo di legge, e nei bar si paga alla cassa prima di ordinare al banco.",
+   "ru": "Кассовый чек нужно сохранять при выходе. Это требование закона, а в барах сначала платят в кассу и только потом заказывают у стойки."
+  },
+  "symbolName": "receipt",
+  "source": "Agenzia delle Entrate, documento commerciale (scontrino fiscale)",
+  "unlockXP": 100
+ },
+ {
+  "id": "it_convalida",
+  "audience": "ru-it",
+  "title": {
+   "it": "Convalidare il biglietto",
+   "ru": "Компостировать билет"
+  },
+  "body": {
+   "it": "Sui treni regionali e sugli autobus il biglietto cartaceo va convalidato prima di salire, nella macchinetta gialla o verde. Un biglietto valido ma non convalidato prende comunque la multa.",
+   "ru": "На региональных поездах и автобусах бумажный билет нужно прокомпостировать до посадки. Действительный, но непрокомпостированный билет — всё равно штраф."
+  },
+  "symbolName": "ticket",
+  "source": "Trenitalia, condizioni di trasporto regionale",
+  "unlockXP": 150
+ },
+ {
+  "id": "it_aperitivo",
+  "audience": "ru-it",
+  "title": {
+   "it": "L'aperitivo",
+   "ru": "Аперитиво"
+  },
+  "body": {
+   "it": "Fra le 18 e le 21 si beve qualcosa e con il bicchiere arriva da mangiare, spesso incluso nel prezzo. Non è la cena, anche se in alcune città ci somiglia molto.",
+   "ru": "Между 18 и 21 берут напиток, и к нему приносят закуски — часто включённые в цену. Это не ужин, хотя в некоторых городах очень похоже."
+  },
+  "symbolName": "wineglass",
+  "source": "Wikipedia, «Aperitivo»",
+  "unlockXP": 200
+ },
+ {
+  "id": "it_regions",
+  "audience": "ru-it",
+  "title": {
+   "it": "L'Italia parla molte lingue",
+   "ru": "Италия говорит на многих языках"
+  },
+  "body": {
+   "it": "Accanto all'italiano esistono lingue regionali vive — napoletano, siciliano, sardo, friulano — non semplici accenti. Alcune hanno tutela ufficiale.",
+   "ru": "Кроме итальянского в стране живут региональные языки — неаполитанский, сицилийский, сардинский, фриульский. Это не просто акценты; некоторые имеют официальную защиту."
+  },
+  "symbolName": "map",
+  "source": "UNESCO Atlas of the World's Languages in Danger; Legge 482/1999",
+  "unlockXP": 250
+ }
+]

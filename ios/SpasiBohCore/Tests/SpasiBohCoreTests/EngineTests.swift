@@ -492,3 +492,49 @@ struct LearnerProgressTests {
         #expect(ProgressKey("it-ru|concept||recall") == nil)
     }
 }
+
+@Suite("Content validation")
+struct ContentValidationTests {
+
+    @Test("The bundled content passes every validation rule")
+    func bundledContentIsValid() {
+        // This is the gate: invalid content fails the build rather than
+        // shipping as an exercise with no correct answer (§92).
+        let problems = ContentValidator.validate(Fixtures.content)
+        let report = problems.map(\.description).joined(separator: "\n")
+        #expect(problems.isEmpty, "\(problems.count) problem(s):\n\(report)")
+    }
+
+    @Test("Both learners have a warm-up and a scenario set")
+    func bothDirectionsHaveContent() {
+        for direction in Direction.allCases {
+            #expect(!Fixtures.content.warmupItems(for: direction).isEmpty, "\(direction) has no warm-up")
+            #expect(!Fixtures.content.scenarios(for: direction).isEmpty, "\(direction) has no scenarios")
+            #expect(!Fixtures.content.tips(for: direction).isEmpty, "\(direction) has no tips")
+            #expect(!Fixtures.content.cultureCards(for: direction).isEmpty, "\(direction) has no culture cards")
+        }
+    }
+
+    @Test("The validator actually catches what it claims to")
+    func validatorRejectsBadContent() {
+        // A validator nobody has seen fail is a validator that does nothing.
+        let broken = ContentStore(
+            concepts: [
+                Concept(
+                    id: "bad id 🙂",
+                    it: LanguageSide(text: "casa", pronunciation: "casa", frequencyRank: 1),
+                    ru: LanguageSide(text: "дом", stressed: "до́мик", frequencyRank: 1),
+                    category: .house, difficulty: 9
+                )
+            ],
+            sentences: [], letters: [], patterns: [], scenarios: []
+        )
+        let problems = ContentValidator.validate(broken).map(\.detail).joined(separator: " | ")
+        #expect(problems.contains("id contains characters"))
+        #expect(problems.contains("only restates the word"))
+        #expect(problems.contains("no transliteration"))
+        #expect(problems.contains("does not match text"))
+        #expect(problems.contains("difficulty"))
+        #expect(problems.contains("too few Italian patterns"))
+    }
+}
