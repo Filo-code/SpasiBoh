@@ -63,28 +63,37 @@ final class OnboardingUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Italiano"].exists)
     }
 
+    /// Choose a direction and wait for Home to finish appearing.
+    ///
+    /// The title lands before the scrolling content below it, so asserting
+    /// `.exists` on a row straight after the title waits for the wrong element
+    /// and fails on a slow boot rather than on anything being broken.
+    private func chooseDirection(_ app: XCUIApplication, _ endonym: String) {
+        let choice = app.staticTexts[endonym].firstMatch
+        XCTAssertTrue(choice.waitForExistence(timeout: 10), "onboarding never appeared")
+        choice.tap()
+        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10), "home never appeared")
+    }
+
     func testChoosingRussianLandsOnHome() {
         let app = launchFresh()
-        app.staticTexts["Русский"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
+        chooseDirection(app, "Русский")
         // UI language follows the direction: an Italian speaker gets Italian.
-        XCTAssertTrue(app.staticTexts["Allenamento libero"].exists)
-        XCTAssertTrue(app.staticTexts["Vocabolario"].exists)
+        XCTAssertTrue(app.staticTexts["Allenamento libero"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Vocabolario"].waitForExistence(timeout: 5))
     }
 
     func testChoosingItalianGivesARussianInterface() {
         let app = launchFresh()
-        app.staticTexts["Italiano"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["Свободная тренировка"].exists)
-        XCTAssertTrue(app.staticTexts["Словарь"].exists)
+        chooseDirection(app, "Italiano")
+        XCTAssertTrue(app.staticTexts["Свободная тренировка"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Словарь"].waitForExistence(timeout: 5))
     }
 
     /// The §109 core loop: start a session, answer, get feedback, move on.
     func testDailySessionAnswersAndAdvances() {
         let app = launchFresh()
-        app.staticTexts["Русский"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
+        chooseDirection(app, "Русский")
 
         app.buttons.matching(NSPredicate(format: "label CONTAINS 'SESSIONE'")).firstMatch.tap()
 
@@ -102,8 +111,7 @@ final class OnboardingUITests: XCTestCase {
     func testProgressSurvivesRelaunch() {
         // Uses the real on-disk store, because that is the thing under test.
         let app = launchFresh(resetProgress: false)
-        app.staticTexts["Русский"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
+        chooseDirection(app, "Русский")
 
         app.buttons.matching(NSPredicate(format: "label CONTAINS 'SESSIONE'")).firstMatch.tap()
         XCTAssertTrue(answerCurrentQuestion(app), "no answerable question appeared")
@@ -143,25 +151,36 @@ final class OnboardingUITests: XCTestCase {
         app.launchEnvironment["SPASIBOH_UITEST_RESET"] = "1"
         app.launch()
 
-        app.staticTexts["Русский"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
+        chooseDirection(app, "Русский")
 
         // Pronunciation is the mode that always asks.
         app.staticTexts["Pronuncia"].firstMatch.tap()
 
-        // If the permission alert appears (it will not when privacy has been
-        // pre-granted), answer it rather than deadlocking on it.
+        // Two alerts can appear, speech then microphone, and each is owned by
+        // springboard — which means the app is legitimately in the background
+        // while one is up. Dismiss whatever shows, for as long as it keeps
+        // showing, rather than assuming a fixed count and timing.
         let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
-        for _ in 0..<2 where springboard.alerts.firstMatch.waitForExistence(timeout: 5) {
+        let deadline = Date().addingTimeInterval(20)
+        while Date() < deadline {
+            // The one state that means a real failure. Checked inside the loop
+            // so a crash is caught the moment it happens rather than at the end.
+            XCTAssertNotEqual(app.state, .notRunning, "the app crashed during speech authorization")
+            if app.state == .runningForeground, springboard.alerts.count == 0 { break }
             let allow = springboard.alerts.buttons.matching(
                 NSPredicate(format: "label CONTAINS[c] 'OK' OR label CONTAINS[c] 'Allow' OR label CONTAINS[c] 'Consenti'")
             ).firstMatch
-            if allow.exists { allow.tap() }
+            if allow.waitForExistence(timeout: 2) {
+                allow.tap()
+            }
         }
 
-        // Whatever the authorization outcome, the process must still be running
-        // and the screen must still respond.
-        XCTAssertEqual(app.state, .runningForeground, "the app died during speech authorization")
+        // The regression this test exists for is a crash, so that is what is
+        // asserted. Being in the background behind a system alert is not a
+        // failure — being gone is.
+        XCTAssertNotEqual(app.state, .notRunning, "the app crashed during speech authorization")
+        XCTAssertEqual(app.state, .runningForeground, "the app never came back to the foreground")
+
         let closeButton = app.buttons["Chiudi"].firstMatch
         let anyQuestion = app.buttons["option-0"].firstMatch
         let emptyState = app.staticTexts["Non c'è nulla da allenare qui, per ora."].firstMatch
@@ -171,13 +190,12 @@ final class OnboardingUITests: XCTestCase {
                 || emptyState.waitForExistence(timeout: 5),
             "the session screen never rendered after authorization"
         )
-        XCTAssertEqual(app.state, .runningForeground)
+        XCTAssertNotEqual(app.state, .notRunning, "the app crashed after authorization")
     }
 
     func testCollectionAndSettingsOpen() {
         let app = launchFresh()
-        app.staticTexts["Русский"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["SpasiBoh!"].waitForExistence(timeout: 10))
+        chooseDirection(app, "Русский")
 
         app.staticTexts["Collezione"].firstMatch.tap()
         // The tab labels are segmented-control buttons, not static text.
