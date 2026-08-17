@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- Native iOS (ios/) ---
+# The Xcode project is GENERATED from ios/project.yml by XcodeGen.
+# Never commit it: it is a build artifact and a merge-conflict magnet.
+# Regenerate with:  cd ios && xcodegen generate
+ios/*.xcodeproj/
+ios/**/.build/
+ios/**/.swiftpm/
+DerivedData/
+*.xcuserstate
+.DS_Store
