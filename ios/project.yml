@@ -45,6 +45,10 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.spasiboh.app
+        # Required: without this the INFOPLIST_KEY_* settings below are inert,
+        # no Info.plist is emitted, and the app target fails validation with
+        # "Build input file cannot be found: .../SpasiBoh.app/Info.plist".
+        GENERATE_INFOPLIST_FILE: "YES"
         INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: "YES"
         # Portrait-first: this is a phone trainer, and rotating mid-drill
