@@ -4,7 +4,33 @@
 
 SpasiBoh! is an experimental language-learning game focused on making **Italian ↔ Russian** practice useful, interactive and actually enjoyable.
 
-The current version is the first **web prototype**, built to test the learning system before moving toward a native iPhone app.
+Web V1 was the first **web prototype**, built to test the learning system. The
+native iPhone app now lives in [`ios/`](ios/) on the `ios-swift` branch.
+
+---
+
+## 📱 Native iOS app
+
+SwiftUI, no WebView. Genuinely bidirectional: Italian → Russian and Russian →
+Italian are separate learning tasks over the same content, with separate
+progress, separate warm-ups and separate scenario sets.
+
+```bash
+brew install xcodegen                  # once
+cd ios && xcodegen generate            # required after cloning — the project is generated
+
+cd ios/SpasiBohCore && swift test      # engine + content
+swift run validate-content             # content report
+
+xcodebuild -project ios/SpasiBoh.xcodeproj -scheme SpasiBoh \
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=26.5' test
+```
+
+`ios/SpasiBoh.xcodeproj` is generated from `ios/project.yml` and is gitignored —
+edit the spec, never the project.
+
+Design notes, the bidirectional model and the engine constants are in
+[`docs/ios/ARCHITECTURE.md`](docs/ios/ARCHITECTURE.md).
 
 ---
 

@@ -44,7 +44,8 @@ struct SessionView: View {
         // Ask for the microphone only when a session that can use it starts —
         // asking at launch, before the learner has seen why, gets refused.
         var speechOK = false
-        if mode == .pronunciation || mode == .daily {
+        let speechDisabledForTests = ProcessInfo.processInfo.environment["SPASIBOH_UITEST_NO_SPEECH"] == "1"
+        if !speechDisabledForTests, mode == .pronunciation || mode == .daily {
             let status = listener.authorization == .notDetermined
                 ? await listener.requestAuthorization()
                 : listener.authorization

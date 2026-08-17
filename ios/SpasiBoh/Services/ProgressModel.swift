@@ -40,6 +40,11 @@ final class ProgressModel {
     static func live() -> ProgressModel {
         do {
             let content = try ContentStore.load()
+            // UI tests need a known starting point; without this each test
+            // inherits whatever the previous one left behind.
+            if ProcessInfo.processInfo.environment["SPASIBOH_UITEST_RESET"] == "1" {
+                return ProgressModel(store: InMemoryProgressStore(), content: content)
+            }
             let store = try FileProgressStore(url: FileProgressStore.defaultURL())
             return ProgressModel(store: store, content: content)
         } catch {

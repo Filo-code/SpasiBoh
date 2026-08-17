@@ -156,6 +156,9 @@ struct ExerciseCard: View {
                 .buttonStyle(.plain)
                 .disabled(locked)
                 .accessibilityAddTraits(chosen == option.id ? [.isSelected] : [])
+                // Stable handle for the UI tests: option text is content and
+                // changes with every seed, so tests cannot key on it.
+                .accessibilityIdentifier("option-\(option.id)")
             }
         }
     }
