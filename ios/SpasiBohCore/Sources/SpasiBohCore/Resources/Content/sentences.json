@@ -1,0 +1,6549 @@
+[
+  {
+    "id": "conv-01",
+    "it": {
+      "text": "Ciao!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ciao!",
+      "frequencyRank": 1,
+      "example": null
+    },
+    "ru": {
+      "text": "Привет!",
+      "stressed": null,
+      "pronunciation": "privèt",
+      "audioText": "Привет!",
+      "frequencyRank": 1,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "privet"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-02",
+    "it": {
+      "text": "Salve!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Salve!",
+      "frequencyRank": 2,
+      "example": null
+    },
+    "ru": {
+      "text": "Здравствуйте!",
+      "stressed": null,
+      "pronunciation": "zdràstvujte",
+      "audioText": "Здравствуйте!",
+      "frequencyRank": 2,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "zdravstvuyte"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Formale. Con una persona sola si può dire anche «Здравствуй».",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-03",
+    "it": {
+      "text": "Buongiorno! (di mattina)",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buongiorno!",
+      "frequencyRank": 3,
+      "example": null
+    },
+    "ru": {
+      "text": "Доброе утро!",
+      "stressed": null,
+      "pronunciation": "dòbraje ùtra",
+      "audioText": "Доброе утро!",
+      "frequencyRank": 3,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "dobroe-utro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-04",
+    "it": {
+      "text": "Buongiorno!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buongiorno!",
+      "frequencyRank": 4,
+      "example": null
+    },
+    "ru": {
+      "text": "Добрый день!",
+      "stressed": null,
+      "pronunciation": "dòbryj den",
+      "audioText": "Добрый день!",
+      "frequencyRank": 4,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "dobryy-den"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-05",
+    "it": {
+      "text": "Buonasera!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buonasera!",
+      "frequencyRank": 5,
+      "example": null
+    },
+    "ru": {
+      "text": "Добрый вечер!",
+      "stressed": null,
+      "pronunciation": "dòbryj vècher",
+      "audioText": "Добрый вечер!",
+      "frequencyRank": 5,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "dobryy-vecher"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-06",
+    "it": {
+      "text": "Come va?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come va?",
+      "frequencyRank": 6,
+      "example": null
+    },
+    "ru": {
+      "text": "Как дела?",
+      "stressed": null,
+      "pronunciation": "kak dilà",
+      "audioText": "Как дела?",
+      "frequencyRank": 6,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "kak"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "зовут",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-07",
+    "it": {
+      "text": "Bene, grazie.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Bene, grazie.",
+      "frequencyRank": 7,
+      "example": null
+    },
+    "ru": {
+      "text": "Хорошо, спасибо.",
+      "stressed": null,
+      "pronunciation": "harashò, spasìba",
+      "audioText": "Хорошо, спасибо.",
+      "frequencyRank": 7,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "khorosho",
+      "spasibo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-08",
+    "it": {
+      "text": "Va tutto bene.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Va tutto bene.",
+      "frequencyRank": 8,
+      "example": null
+    },
+    "ru": {
+      "text": "Всё хорошо.",
+      "stressed": null,
+      "pronunciation": "vsyo harashò",
+      "audioText": "Всё хорошо.",
+      "frequencyRank": 8,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "vsyo",
+      "khorosho"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-09",
+    "it": {
+      "text": "Non molto bene.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non molto bene.",
+      "frequencyRank": 9,
+      "example": null
+    },
+    "ru": {
+      "text": "Не очень.",
+      "stressed": null,
+      "pronunciation": "ni òchen",
+      "audioText": "Не очень.",
+      "frequencyRank": 9,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ochen"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-10",
+    "it": {
+      "text": "Come ti chiami?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come ti chiami?",
+      "frequencyRank": 10,
+      "example": null
+    },
+    "ru": {
+      "text": "Как тебя зовут?",
+      "stressed": null,
+      "pronunciation": "kak tibjà zavùt",
+      "audioText": "Как тебя зовут?",
+      "frequencyRank": 10,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "kak",
+      "ty"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "дела",
+        "откуда"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-11",
+    "it": {
+      "text": "Come si chiama?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si chiama?",
+      "frequencyRank": 11,
+      "example": null
+    },
+    "ru": {
+      "text": "Как вас зовут?",
+      "stressed": null,
+      "pronunciation": "kak vas zavùt",
+      "audioText": "Как вас зовут?",
+      "frequencyRank": 11,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "kak",
+      "vy"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Versione formale di «Как тебя зовут?».",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-12",
+    "it": {
+      "text": "Mi chiamo Michele.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi chiamo Michele.",
+      "frequencyRank": 12,
+      "example": null
+    },
+    "ru": {
+      "text": "Меня зовут Микеле.",
+      "stressed": null,
+      "pronunciation": "minjà zavùt Mikèle",
+      "audioText": "Меня зовут Микеле.",
+      "frequencyRank": 12,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "тебя",
+        "вас"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-13",
+    "it": {
+      "text": "Molto piacere.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Molto piacere.",
+      "frequencyRank": 13,
+      "example": null
+    },
+    "ru": {
+      "text": "Очень приятно.",
+      "stressed": null,
+      "pronunciation": "òchen prijàtna",
+      "audioText": "Очень приятно.",
+      "frequencyRank": 13,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ochen-priyatno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-14",
+    "it": {
+      "text": "Di dove sei?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Di dove sei?",
+      "frequencyRank": 14,
+      "example": null
+    },
+    "ru": {
+      "text": "Откуда ты?",
+      "stressed": null,
+      "pronunciation": "atkùda ty",
+      "audioText": "Откуда ты?",
+      "frequencyRank": 14,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "otkuda",
+      "ty"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-15",
+    "it": {
+      "text": "Di dov'è Lei?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Di dov'è Lei?",
+      "frequencyRank": 15,
+      "example": null
+    },
+    "ru": {
+      "text": "Откуда вы?",
+      "stressed": null,
+      "pronunciation": "atkùda vy",
+      "audioText": "Откуда вы?",
+      "frequencyRank": 15,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "otkuda",
+      "vy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-16",
+    "it": {
+      "text": "Vengo dall'Italia.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Vengo dall'Italia.",
+      "frequencyRank": 16,
+      "example": null
+    },
+    "ru": {
+      "text": "Я из Италии.",
+      "stressed": null,
+      "pronunciation": "ja iz Itàlii",
+      "audioText": "Я из Италии.",
+      "frequencyRank": 16,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ya",
+      "italiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "России",
+        "в"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-17",
+    "it": {
+      "text": "Sono italiano.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sono italiano.",
+      "frequencyRank": 17,
+      "example": null
+    },
+    "ru": {
+      "text": "Я итальянец.",
+      "stressed": null,
+      "pronunciation": "ja ital'jànets",
+      "audioText": "Я итальянец.",
+      "frequencyRank": 17,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ya",
+      "italyanets"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-18",
+    "it": {
+      "text": "Vivo vicino a Brescia.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Vivo vicino a Brescia.",
+      "frequencyRank": 18,
+      "example": null
+    },
+    "ru": {
+      "text": "Я живу недалеко от Брешии.",
+      "stressed": null,
+      "pronunciation": "ja zhyvù nidalikò at Brèshii",
+      "audioText": "Я живу недалеко от Брешии.",
+      "frequencyRank": 18,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "zhit",
+      "daleko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-19",
+    "it": {
+      "text": "Vivo in Italia.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Vivo in Italia.",
+      "frequencyRank": 19,
+      "example": null
+    },
+    "ru": {
+      "text": "Я живу в Италии.",
+      "stressed": null,
+      "pronunciation": "ja zhyvù v Itàlii",
+      "audioText": "Я живу в Италии.",
+      "frequencyRank": 19,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "zhit",
+      "italiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "собака",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-20",
+    "it": {
+      "text": "Quanti anni hai?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanti anni hai?",
+      "frequencyRank": 20,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько тебе лет?",
+      "stressed": null,
+      "pronunciation": "skòl'ka tibè let",
+      "audioText": "Сколько тебе лет?",
+      "frequencyRank": 20,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "skolko",
+      "god"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-21",
+    "it": {
+      "text": "Ho trent'anni.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho trent'anni.",
+      "frequencyRank": 21,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне тридцать лет.",
+      "stressed": null,
+      "pronunciation": "mne trìtsat let",
+      "audioText": "Мне тридцать лет.",
+      "frequencyRank": 21,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "tridtsat",
+      "god"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-22",
+    "it": {
+      "text": "Parla inglese?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Parla inglese?",
+      "frequencyRank": 22,
+      "example": null
+    },
+    "ru": {
+      "text": "Вы говорите по-английски?",
+      "stressed": null,
+      "pronunciation": "vy gavarìte pa-anglìjski",
+      "audioText": "Вы говорите по-английски?",
+      "frequencyRank": 22,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "govorit",
+      "vy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-23",
+    "it": {
+      "text": "Parlo un po' di russo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Parlo un po' di russo.",
+      "frequencyRank": 23,
+      "example": null
+    },
+    "ru": {
+      "text": "Я немного говорю по-русски.",
+      "stressed": null,
+      "pronunciation": "ja nimnòga gavarjù pa-rùski",
+      "audioText": "Я немного говорю по-русски.",
+      "frequencyRank": 23,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "nemnogo",
+      "govorit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "по-английски",
+        "не"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-24",
+    "it": {
+      "text": "Non parlo russo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non parlo russo.",
+      "frequencyRank": 24,
+      "example": null
+    },
+    "ru": {
+      "text": "Я не говорю по-русски.",
+      "stressed": null,
+      "pronunciation": "ja ni gavarjù pa-rùski",
+      "audioText": "Я не говорю по-русски.",
+      "frequencyRank": 24,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "govorit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-25",
+    "it": {
+      "text": "Non capisco.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non capisco.",
+      "frequencyRank": 25,
+      "example": null
+    },
+    "ru": {
+      "text": "Я не понимаю.",
+      "stressed": null,
+      "pronunciation": "ja ni panimàju",
+      "audioText": "Я не понимаю.",
+      "frequencyRank": 25,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "ponimat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "знаю",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-26",
+    "it": {
+      "text": "Ripeta, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ripeta, per favore.",
+      "frequencyRank": 26,
+      "example": null
+    },
+    "ru": {
+      "text": "Повторите, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "paftarìte, pazhàlusta",
+      "audioText": "Повторите, пожалуйста.",
+      "frequencyRank": 26,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "povtorit",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-27",
+    "it": {
+      "text": "Parli più lentamente, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Parli più lentamente, per favore.",
+      "frequencyRank": 27,
+      "example": null
+    },
+    "ru": {
+      "text": "Говорите медленнее, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "gavarìte mèdlinije, pazhàlusta",
+      "audioText": "Говорите медленнее, пожалуйста.",
+      "frequencyRank": 27,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "govorit",
+      "medlenno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-28",
+    "it": {
+      "text": "Che cosa significa?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Che cosa significa?",
+      "frequencyRank": 28,
+      "example": null
+    },
+    "ru": {
+      "text": "Что это значит?",
+      "stressed": null,
+      "pronunciation": "shto èta znàchit",
+      "audioText": "Что это значит?",
+      "frequencyRank": 28,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "chto",
+      "eto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-29",
+    "it": {
+      "text": "Come si dice in russo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si dice in russo?",
+      "frequencyRank": 29,
+      "example": null
+    },
+    "ru": {
+      "text": "Как это по-русски?",
+      "stressed": null,
+      "pronunciation": "kak èta pa-rùski",
+      "audioText": "Как это по-русски?",
+      "frequencyRank": 29,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "kak",
+      "eto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-30",
+    "it": {
+      "text": "Come si scrive?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si scrive?",
+      "frequencyRank": 30,
+      "example": null
+    },
+    "ru": {
+      "text": "Как это пишется?",
+      "stressed": null,
+      "pronunciation": "kak èta pìshitsa",
+      "audioText": "Как это пишется?",
+      "frequencyRank": 30,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "kak",
+      "pisat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-31",
+    "it": {
+      "text": "Piacere di conoscerti.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Piacere di conoscerti.",
+      "frequencyRank": 31,
+      "example": null
+    },
+    "ru": {
+      "text": "Приятно познакомиться.",
+      "stressed": null,
+      "pronunciation": "prijàtna paznakòmitsa",
+      "audioText": "Приятно познакомиться.",
+      "frequencyRank": 31,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "ochen-priyatno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-32",
+    "it": {
+      "text": "Arrivederci!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Arrivederci!",
+      "frequencyRank": 32,
+      "example": null
+    },
+    "ru": {
+      "text": "До свидания!",
+      "stressed": null,
+      "pronunciation": "da svidànija",
+      "audioText": "До свидания!",
+      "frequencyRank": 32,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "do-svidaniya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-33",
+    "it": {
+      "text": "Ciao! (nel congedarsi)",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ciao!",
+      "frequencyRank": 33,
+      "example": null
+    },
+    "ru": {
+      "text": "Пока!",
+      "stressed": null,
+      "pronunciation": "pakà",
+      "audioText": "Пока!",
+      "frequencyRank": 33,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "poka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-34",
+    "it": {
+      "text": "A domani!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A domani!",
+      "frequencyRank": 34,
+      "example": null
+    },
+    "ru": {
+      "text": "До завтра!",
+      "stressed": null,
+      "pronunciation": "da zàvtra",
+      "audioText": "До завтра!",
+      "frequencyRank": 34,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "zavtra"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-35",
+    "it": {
+      "text": "Ci vediamo!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ci vediamo!",
+      "frequencyRank": 35,
+      "example": null
+    },
+    "ru": {
+      "text": "Увидимся!",
+      "stressed": null,
+      "pronunciation": "uvìdimsja",
+      "audioText": "Увидимся!",
+      "frequencyRank": 35,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "videt"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-36",
+    "it": {
+      "text": "Grazie mille!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Grazie mille!",
+      "frequencyRank": 36,
+      "example": null
+    },
+    "ru": {
+      "text": "Спасибо большое!",
+      "stressed": null,
+      "pronunciation": "spasìba balshòje",
+      "audioText": "Спасибо большое!",
+      "frequencyRank": 36,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "spasibo",
+      "bolshoy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-37",
+    "it": {
+      "text": "Di niente.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Di niente.",
+      "frequencyRank": 37,
+      "example": null
+    },
+    "ru": {
+      "text": "Не за что.",
+      "stressed": null,
+      "pronunciation": "nè za shta",
+      "audioText": "Не за что.",
+      "frequencyRank": 37,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "chto"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Risposta standard a «спасибо».",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-38",
+    "it": {
+      "text": "Scusi il disturbo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Scusi il disturbo.",
+      "frequencyRank": 38,
+      "example": null
+    },
+    "ru": {
+      "text": "Извините за беспокойство.",
+      "stressed": null,
+      "pronunciation": "izvinìte za bispakòjstva",
+      "audioText": "Извините за беспокойство.",
+      "frequencyRank": 38,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 4,
+    "keywords": [
+      "izvinite"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-39",
+    "it": {
+      "text": "Non fa niente.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non fa niente.",
+      "frequencyRank": 39,
+      "example": null
+    },
+    "ru": {
+      "text": "Ничего страшного.",
+      "stressed": null,
+      "pronunciation": "nichivò stràshnava",
+      "audioText": "Ничего страшного.",
+      "frequencyRank": 39,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "nichego"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-40",
+    "it": {
+      "text": "Buona giornata!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buona giornata!",
+      "frequencyRank": 40,
+      "example": null
+    },
+    "ru": {
+      "text": "Хорошего дня!",
+      "stressed": null,
+      "pronunciation": "haròshiva dnja",
+      "audioText": "Хорошего дня!",
+      "frequencyRank": 40,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "khoroshiy",
+      "den"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-41",
+    "it": {
+      "text": "Buona fortuna!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buona fortuna!",
+      "frequencyRank": 41,
+      "example": null
+    },
+    "ru": {
+      "text": "Удачи!",
+      "stressed": null,
+      "pronunciation": "udàchi",
+      "audioText": "Удачи!",
+      "frequencyRank": 41,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "udachi"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-42",
+    "it": {
+      "text": "Sono un turista.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sono un turista.",
+      "frequencyRank": 42,
+      "example": null
+    },
+    "ru": {
+      "text": "Я турист.",
+      "stressed": null,
+      "pronunciation": "ja turìst",
+      "audioText": "Я турист.",
+      "frequencyRank": 42,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "turist"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-43",
+    "it": {
+      "text": "Sono qui in vacanza.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sono qui in vacanza.",
+      "frequencyRank": 43,
+      "example": null
+    },
+    "ru": {
+      "text": "Я здесь в отпуске.",
+      "stressed": null,
+      "pronunciation": "ja zdes v òtpuske",
+      "audioText": "Я здесь в отпуске.",
+      "frequencyRank": 43,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "zdes",
+      "otpusk"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-44",
+    "it": {
+      "text": "È la prima volta che vengo qui.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È la prima volta che vengo qui.",
+      "frequencyRank": 44,
+      "example": null
+    },
+    "ru": {
+      "text": "Я здесь первый раз.",
+      "stressed": null,
+      "pronunciation": "ja zdes pèrvyj ras",
+      "audioText": "Я здесь первый раз.",
+      "frequencyRank": 44,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "zdes",
+      "pervyy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-45",
+    "it": {
+      "text": "Mi piace Mosca.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi piace Mosca.",
+      "frequencyRank": 45,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нравится Москва.",
+      "stressed": null,
+      "pronunciation": "mne nràvitsa Maskvà",
+      "audioText": "Мне нравится Москва.",
+      "frequencyRank": 45,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "nravitsya",
+      "moskva"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-46",
+    "it": {
+      "text": "Posso farle una domanda?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso farle una domanda?",
+      "frequencyRank": 46,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно вопрос?",
+      "stressed": null,
+      "pronunciation": "mòzhna vaprós",
+      "audioText": "Можно вопрос?",
+      "frequencyRank": 46,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "mozhno",
+      "vopros"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-47",
+    "it": {
+      "text": "Può aiutarmi?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Può aiutarmi?",
+      "frequencyRank": 47,
+      "example": null
+    },
+    "ru": {
+      "text": "Вы можете мне помочь?",
+      "stressed": null,
+      "pronunciation": "vy mòzhyte mne pamòch",
+      "audioText": "Вы можете мне помочь?",
+      "frequencyRank": 47,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "moch",
+      "pomoch"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-48",
+    "it": {
+      "text": "Certo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Certo.",
+      "frequencyRank": 48,
+      "example": null
+    },
+    "ru": {
+      "text": "Конечно.",
+      "stressed": null,
+      "pronunciation": "kanèshna",
+      "audioText": "Конечно.",
+      "frequencyRank": 48,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "konechno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-49",
+    "it": {
+      "text": "Scusi, le serve aiuto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Scusi, le serve aiuto?",
+      "frequencyRank": 49,
+      "example": null
+    },
+    "ru": {
+      "text": "Извините, вам помочь?",
+      "stressed": null,
+      "pronunciation": "izvinìte, vam pamòch",
+      "audioText": "Извините, вам помочь?",
+      "frequencyRank": 49,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "izvinite",
+      "pomoch"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Frase che sentirai spesso: qualcuno ti offre aiuto.",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-50",
+    "it": {
+      "text": "Sì, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sì, per favore.",
+      "frequencyRank": 50,
+      "example": null
+    },
+    "ru": {
+      "text": "Да, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "da, pazhàlusta",
+      "audioText": "Да, пожалуйста.",
+      "frequencyRank": 50,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "da",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-51",
+    "it": {
+      "text": "No, grazie.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "No, grazie.",
+      "frequencyRank": 51,
+      "example": null
+    },
+    "ru": {
+      "text": "Нет, спасибо.",
+      "stressed": null,
+      "pronunciation": "net, spasìba",
+      "audioText": "Нет, спасибо.",
+      "frequencyRank": 51,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "keywords": [
+      "net",
+      "spasibo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-52",
+    "it": {
+      "text": "Non lo so.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non lo so.",
+      "frequencyRank": 52,
+      "example": null
+    },
+    "ru": {
+      "text": "Я не знаю.",
+      "stressed": null,
+      "pronunciation": "ja ni znàju",
+      "audioText": "Я не знаю.",
+      "frequencyRank": 52,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 2,
+    "keywords": [
+      "znat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-53",
+    "it": {
+      "text": "Un attimo, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un attimo, per favore.",
+      "frequencyRank": 53,
+      "example": null
+    },
+    "ru": {
+      "text": "Одну минуту, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "adnù minùtu, pazhàlusta",
+      "audioText": "Одну минуту, пожалуйста.",
+      "frequencyRank": 53,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "minuta",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-54",
+    "it": {
+      "text": "Non ti sento.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non ti sento.",
+      "frequencyRank": 54,
+      "example": null
+    },
+    "ru": {
+      "text": "Я тебя не слышу.",
+      "stressed": null,
+      "pronunciation": "ja tibjà ni slỳshu",
+      "audioText": "Я тебя не слышу.",
+      "frequencyRank": 54,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "slyshat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "conv-55",
+    "it": {
+      "text": "Me lo scriva, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Me lo scriva, per favore.",
+      "frequencyRank": 55,
+      "example": null
+    },
+    "ru": {
+      "text": "Напишите, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "napishỳte, pazhàlusta",
+      "audioText": "Напишите, пожалуйста.",
+      "frequencyRank": 55,
+      "example": null
+    },
+    "category": "conversation",
+    "difficulty": 3,
+    "keywords": [
+      "pisat",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-01",
+    "it": {
+      "text": "Dov'è l'aeroporto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è l'aeroporto?",
+      "frequencyRank": 56,
+      "example": null
+    },
+    "ru": {
+      "text": "Где аэропорт?",
+      "stressed": null,
+      "pronunciation": "gde aerapòrt",
+      "audioText": "Где аэропорт?",
+      "frequencyRank": 56,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 1,
+    "keywords": [
+      "gde",
+      "aeroport"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "вокзал",
+        "метро"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-02",
+    "it": {
+      "text": "Come si arriva all'aeroporto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si arriva all'aeroporto?",
+      "frequencyRank": 57,
+      "example": null
+    },
+    "ru": {
+      "text": "Как доехать до аэропорта?",
+      "stressed": null,
+      "pronunciation": "kak dajèhat da aerapòrta",
+      "audioText": "Как доехать до аэропорта?",
+      "frequencyRank": 57,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 3,
+    "keywords": [
+      "kak",
+      "doekhat",
+      "aeroport"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-03",
+    "it": {
+      "text": "Dov'è il check-in?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il check-in?",
+      "frequencyRank": 58,
+      "example": null
+    },
+    "ru": {
+      "text": "Где регистрация?",
+      "stressed": null,
+      "pronunciation": "gde rigistràtsija",
+      "audioText": "Где регистрация?",
+      "frequencyRank": 58,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "registratsiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-04",
+    "it": {
+      "text": "Dov'è il mio gate?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il mio gate?",
+      "frequencyRank": 59,
+      "example": null
+    },
+    "ru": {
+      "text": "Где мой выход?",
+      "stressed": null,
+      "pronunciation": "gde moj vỳhat",
+      "audioText": "Где мой выход?",
+      "frequencyRank": 59,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "vykhod"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-05",
+    "it": {
+      "text": "Dov'è il controllo passaporti?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il controllo passaporti?",
+      "frequencyRank": 60,
+      "example": null
+    },
+    "ru": {
+      "text": "Где паспортный контроль?",
+      "stressed": null,
+      "pronunciation": "gde pàspartnyj kantròl",
+      "audioText": "Где паспортный контроль?",
+      "frequencyRank": 60,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "pasport",
+      "kontrol"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-06",
+    "it": {
+      "text": "Dove si ritira il bagaglio?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dove si ritira il bagaglio?",
+      "frequencyRank": 61,
+      "example": null
+    },
+    "ru": {
+      "text": "Где получить багаж?",
+      "stressed": null,
+      "pronunciation": "gde paluchìt bagàsh",
+      "audioText": "Где получить багаж?",
+      "frequencyRank": 61,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "bagazh"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-07",
+    "it": {
+      "text": "Dov'è il mio volo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il mio volo?",
+      "frequencyRank": 62,
+      "example": null
+    },
+    "ru": {
+      "text": "Где мой рейс?",
+      "stressed": null,
+      "pronunciation": "gde moj rejs",
+      "audioText": "Где мой рейс?",
+      "frequencyRank": 62,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "reys"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-08",
+    "it": {
+      "text": "Il mio volo è in ritardo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Il mio volo è in ritardo?",
+      "frequencyRank": 63,
+      "example": null
+    },
+    "ru": {
+      "text": "Мой рейс задерживается?",
+      "stressed": null,
+      "pronunciation": "moj rejs zadèrzhyvajitsa",
+      "audioText": "Мой рейс задерживается?",
+      "frequencyRank": 63,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 4,
+    "keywords": [
+      "reys",
+      "zaderzhka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-09",
+    "it": {
+      "text": "Ho perso il bagaglio.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho perso il bagaglio.",
+      "frequencyRank": 64,
+      "example": null
+    },
+    "ru": {
+      "text": "Я потерял багаж.",
+      "stressed": null,
+      "pronunciation": "ja patirjàl bagàsh",
+      "audioText": "Я потерял багаж.",
+      "frequencyRank": 64,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 3,
+    "keywords": [
+      "poteryat",
+      "bagazh"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-10",
+    "it": {
+      "text": "Ecco il mio passaporto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ecco il mio passaporto.",
+      "frequencyRank": 65,
+      "example": null
+    },
+    "ru": {
+      "text": "Вот мой паспорт.",
+      "stressed": null,
+      "pronunciation": "vot moj pàspart",
+      "audioText": "Вот мой паспорт.",
+      "frequencyRank": 65,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 2,
+    "keywords": [
+      "pasport"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-11",
+    "it": {
+      "text": "Dov'è il gate d'imbarco?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il gate d'imbarco?",
+      "frequencyRank": 66,
+      "example": null
+    },
+    "ru": {
+      "text": "Где выход на посадку?",
+      "stressed": null,
+      "pronunciation": "gde vỳhat na pasàtku",
+      "audioText": "Где выход на посадку?",
+      "frequencyRank": 66,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 4,
+    "keywords": [
+      "vykhod",
+      "posadka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-12",
+    "it": {
+      "text": "Devo andare al terminal B.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Devo andare al terminal B.",
+      "frequencyRank": 67,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужно в терминал Б.",
+      "stressed": null,
+      "pronunciation": "mne nùzhna v tirminàl be",
+      "audioText": "Мне нужно в терминал Б.",
+      "frequencyRank": 67,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 3,
+    "keywords": [
+      "nuzhno",
+      "terminal"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-13",
+    "it": {
+      "text": "Quanto ci vuole per l'aeroporto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto ci vuole per l'aeroporto?",
+      "frequencyRank": 68,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько ехать до аэропорта?",
+      "stressed": null,
+      "pronunciation": "skòl'ka jèhat da aerapòrta",
+      "audioText": "Сколько ехать до аэропорта?",
+      "frequencyRank": 68,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "ekhat",
+      "aeroport"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "air-14",
+    "it": {
+      "text": "Questo è bagaglio a mano.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Questo è bagaglio a mano.",
+      "frequencyRank": 69,
+      "example": null
+    },
+    "ru": {
+      "text": "Это ручная кладь.",
+      "stressed": null,
+      "pronunciation": "èta ruchnàja klat",
+      "audioText": "Это ручная кладь.",
+      "frequencyRank": 69,
+      "example": null
+    },
+    "category": "airport",
+    "difficulty": 4,
+    "keywords": [
+      "bagazh"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-01",
+    "it": {
+      "text": "Dov'è la metro?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la metro?",
+      "frequencyRank": 70,
+      "example": null
+    },
+    "ru": {
+      "text": "Где метро?",
+      "stressed": null,
+      "pronunciation": "gde mitrò",
+      "audioText": "Где метро?",
+      "frequencyRank": 70,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 1,
+    "keywords": [
+      "gde",
+      "metro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "вокзал",
+        "такси"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-02",
+    "it": {
+      "text": "Dov'è la stazione della metro più vicina?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la stazione della metro più vicina?",
+      "frequencyRank": 71,
+      "example": null
+    },
+    "ru": {
+      "text": "Где ближайшая станция метро?",
+      "stressed": null,
+      "pronunciation": "gde blizhàjshaja stàntsija mitrò",
+      "audioText": "Где ближайшая станция метро?",
+      "frequencyRank": 71,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "blizhayshiy",
+      "stantsiya",
+      "metro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "аптека",
+        "большая"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-03",
+    "it": {
+      "text": "Dov'è l'ingresso della metro?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è l'ingresso della metro?",
+      "frequencyRank": 72,
+      "example": null
+    },
+    "ru": {
+      "text": "Где вход в метро?",
+      "stressed": null,
+      "pronunciation": "gde vhot v mitrò",
+      "audioText": "Где вход в метро?",
+      "frequencyRank": 72,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "vkhod",
+      "metro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-04",
+    "it": {
+      "text": "Dov'è l'uscita?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è l'uscita?",
+      "frequencyRank": 73,
+      "example": null
+    },
+    "ru": {
+      "text": "Где выход?",
+      "stressed": null,
+      "pronunciation": "gde vỳhat",
+      "audioText": "Где выход?",
+      "frequencyRank": 73,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 1,
+    "keywords": [
+      "gde",
+      "vykhod"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-05",
+    "it": {
+      "text": "Questa linea arriva in centro?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Questa linea arriva in centro?",
+      "frequencyRank": 74,
+      "example": null
+    },
+    "ru": {
+      "text": "Эта линия идёт до центра?",
+      "stressed": null,
+      "pronunciation": "èta lìnija idyòt da tsèntra",
+      "audioText": "Эта линия идёт до центра?",
+      "frequencyRank": 74,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 4,
+    "keywords": [
+      "liniya",
+      "idti",
+      "tsentr"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-06",
+    "it": {
+      "text": "Devo andare in centro.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Devo andare in centro.",
+      "frequencyRank": 75,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужно в центр.",
+      "stressed": null,
+      "pronunciation": "mne nùzhna v tsentr",
+      "audioText": "Мне нужно в центр.",
+      "frequencyRank": 75,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 2,
+    "keywords": [
+      "nuzhno",
+      "tsentr"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "аэропорт",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-07",
+    "it": {
+      "text": "Come ci arrivo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come ci arrivo?",
+      "frequencyRank": 76,
+      "example": null
+    },
+    "ru": {
+      "text": "Как мне туда добраться?",
+      "stressed": null,
+      "pronunciation": "kak mne tudà dabràtsa",
+      "audioText": "Как мне туда добраться?",
+      "frequencyRank": 76,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 4,
+    "keywords": [
+      "kak"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-08",
+    "it": {
+      "text": "Quanto costa il biglietto della metro?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto costa il biglietto della metro?",
+      "frequencyRank": 77,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько стоит билет на метро?",
+      "stressed": null,
+      "pronunciation": "skòl'ka stòit bilèt na mitrò",
+      "audioText": "Сколько стоит билет на метро?",
+      "frequencyRank": 77,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 3,
+    "keywords": [
+      "skolko",
+      "stoit",
+      "bilet",
+      "metro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-09",
+    "it": {
+      "text": "Dove si compra il biglietto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dove si compra il biglietto?",
+      "frequencyRank": 78,
+      "example": null
+    },
+    "ru": {
+      "text": "Где купить билет?",
+      "stressed": null,
+      "pronunciation": "gde kupìt bilèt",
+      "audioText": "Где купить билет?",
+      "frequencyRank": 78,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "kupit",
+      "bilet"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-10",
+    "it": {
+      "text": "Devo cambiare linea?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Devo cambiare linea?",
+      "frequencyRank": 79,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужна пересадка?",
+      "stressed": null,
+      "pronunciation": "mne nuzhnà pirisàtka",
+      "audioText": "Мне нужна пересадка?",
+      "frequencyRank": 79,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 4,
+    "keywords": [
+      "nuzhno",
+      "peresadka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-11",
+    "it": {
+      "text": "A che stazione devo scendere?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che stazione devo scendere?",
+      "frequencyRank": 80,
+      "example": null
+    },
+    "ru": {
+      "text": "На какой станции мне выходить?",
+      "stressed": null,
+      "pronunciation": "na kakòj stàntsii mne vyhadìt",
+      "audioText": "На какой станции мне выходить?",
+      "frequencyRank": 80,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 4,
+    "keywords": [
+      "kakoy",
+      "stantsiya",
+      "vykhodit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-12",
+    "it": {
+      "text": "È lontano?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È lontano?",
+      "frequencyRank": 81,
+      "example": null
+    },
+    "ru": {
+      "text": "Это далеко?",
+      "stressed": null,
+      "pronunciation": "èta dalikò",
+      "audioText": "Это далеко?",
+      "frequencyRank": 81,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 1,
+    "keywords": [
+      "eto",
+      "daleko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "met-13",
+    "it": {
+      "text": "Prossima stazione: Arbatskaja.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Prossima stazione: Arbatskaja.",
+      "frequencyRank": 82,
+      "example": null
+    },
+    "ru": {
+      "text": "Следующая станция — Арбатская.",
+      "stressed": null,
+      "pronunciation": "slèdujushchaja stàntsija — Arbàtskaja",
+      "audioText": "Следующая станция — Арбатская.",
+      "frequencyRank": 82,
+      "example": null
+    },
+    "category": "metro",
+    "difficulty": 4,
+    "keywords": [
+      "sleduyushchiy",
+      "stantsiya"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "È l'annuncio che senti in metro a Mosca.",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-01",
+    "it": {
+      "text": "Dov'è la stazione ferroviaria?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la stazione ferroviaria?",
+      "frequencyRank": 83,
+      "example": null
+    },
+    "ru": {
+      "text": "Где вокзал?",
+      "stressed": null,
+      "pronunciation": "gde vakzàl",
+      "audioText": "Где вокзал?",
+      "frequencyRank": 83,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "vokzal"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "метро",
+        "аэропорт"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-02",
+    "it": {
+      "text": "Un biglietto per Mosca, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un biglietto per Mosca, per favore.",
+      "frequencyRank": 84,
+      "example": null
+    },
+    "ru": {
+      "text": "Один билет до Москвы, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "adìn bilèt da Maskvỳ, pazhàlusta",
+      "audioText": "Один билет до Москвы, пожалуйста.",
+      "frequencyRank": 84,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 3,
+    "keywords": [
+      "odin",
+      "bilet",
+      "moskva"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "два",
+        "вокзал"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-03",
+    "it": {
+      "text": "Due biglietti per San Pietroburgo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Due biglietti per San Pietroburgo.",
+      "frequencyRank": 85,
+      "example": null
+    },
+    "ru": {
+      "text": "Два билета до Санкт-Петербурга.",
+      "stressed": null,
+      "pronunciation": "dva bilèta da Sankt-Pitirbùrga",
+      "audioText": "Два билета до Санкт-Петербурга.",
+      "frequencyRank": 85,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 3,
+    "keywords": [
+      "dva",
+      "bilet",
+      "peterburg"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-04",
+    "it": {
+      "text": "A che ora parte il treno?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora parte il treno?",
+      "frequencyRank": 86,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько отправляется поезд?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka atpravljàjitsa pòjizt",
+      "audioText": "Во сколько отправляется поезд?",
+      "frequencyRank": 86,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "otpravlenie",
+      "poezd"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-05",
+    "it": {
+      "text": "Da che binario parte il treno?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Da che binario parte il treno?",
+      "frequencyRank": 87,
+      "example": null
+    },
+    "ru": {
+      "text": "С какой платформы отправляется поезд?",
+      "stressed": null,
+      "pronunciation": "s kakòj platfòrmy atpravljàjitsa pòjizt",
+      "audioText": "С какой платформы отправляется поезд?",
+      "frequencyRank": 87,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 4,
+    "keywords": [
+      "kakoy",
+      "platforma",
+      "poezd"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-06",
+    "it": {
+      "text": "Questo treno va a Mosca?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Questo treno va a Mosca?",
+      "frequencyRank": 88,
+      "example": null
+    },
+    "ru": {
+      "text": "Этот поезд идёт в Москву?",
+      "stressed": null,
+      "pronunciation": "ètat pòjizt idyòt v Maskvù",
+      "audioText": "Этот поезд идёт в Москву?",
+      "frequencyRank": 88,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 3,
+    "keywords": [
+      "poezd",
+      "idti",
+      "moskva"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-07",
+    "it": {
+      "text": "Dov'è la biglietteria?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la biglietteria?",
+      "frequencyRank": 89,
+      "example": null
+    },
+    "ru": {
+      "text": "Где касса?",
+      "stressed": null,
+      "pronunciation": "gde kàsa",
+      "audioText": "Где касса?",
+      "frequencyRank": 89,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "kassa"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-08",
+    "it": {
+      "text": "A che ora arriva il treno?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora arriva il treno?",
+      "frequencyRank": 90,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько прибывает поезд?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka pribyvàjit pòjizt",
+      "audioText": "Во сколько прибывает поезд?",
+      "frequencyRank": 90,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 4,
+    "keywords": [
+      "pribytie",
+      "poezd"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-09",
+    "it": {
+      "text": "Il mio vagone è il numero cinque.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Il mio vagone è il numero cinque.",
+      "frequencyRank": 91,
+      "example": null
+    },
+    "ru": {
+      "text": "Мой вагон номер пять.",
+      "stressed": null,
+      "pronunciation": "moj vagòn nòmir pjat",
+      "audioText": "Мой вагон номер пять.",
+      "frequencyRank": 91,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 3,
+    "keywords": [
+      "vagon",
+      "nomer",
+      "pyat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-10",
+    "it": {
+      "text": "Questo è il mio posto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Questo è il mio posto.",
+      "frequencyRank": 92,
+      "example": null
+    },
+    "ru": {
+      "text": "Это моё место.",
+      "stressed": null,
+      "pronunciation": "èta majò mèsta",
+      "audioText": "Это моё место.",
+      "frequencyRank": 92,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 2,
+    "keywords": [
+      "eto",
+      "mesto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-11",
+    "it": {
+      "text": "Il treno è in ritardo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Il treno è in ritardo?",
+      "frequencyRank": 93,
+      "example": null
+    },
+    "ru": {
+      "text": "Поезд опаздывает?",
+      "stressed": null,
+      "pronunciation": "pòjizt apàzdyvajit",
+      "audioText": "Поезд опаздывает?",
+      "frequencyRank": 93,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 4,
+    "keywords": [
+      "poezd",
+      "opozdat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "trn-12",
+    "it": {
+      "text": "Mi serve un biglietto andata e ritorno.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi serve un biglietto andata e ritorno.",
+      "frequencyRank": 94,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужен билет туда и обратно.",
+      "stressed": null,
+      "pronunciation": "mne nùzhyn bilèt tudà i abràtna",
+      "audioText": "Мне нужен билет туда и обратно.",
+      "frequencyRank": 94,
+      "example": null
+    },
+    "category": "train",
+    "difficulty": 4,
+    "keywords": [
+      "nuzhno",
+      "bilet"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-01",
+    "it": {
+      "text": "Mi serve un taxi.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi serve un taxi.",
+      "frequencyRank": 95,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужно такси.",
+      "stressed": null,
+      "pronunciation": "mne nùzhna taksì",
+      "audioText": "Мне нужно такси.",
+      "frequencyRank": 95,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 2,
+    "keywords": [
+      "nuzhno",
+      "taksi"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "метро",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-02",
+    "it": {
+      "text": "Chiami un taxi, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Chiami un taxi, per favore.",
+      "frequencyRank": 96,
+      "example": null
+    },
+    "ru": {
+      "text": "Вызовите такси, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "vỳzavite taksì, pazhàlusta",
+      "audioText": "Вызовите такси, пожалуйста.",
+      "frequencyRank": 96,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "keywords": [
+      "taksi",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-03",
+    "it": {
+      "text": "Quanto costa arrivare in centro?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto costa arrivare in centro?",
+      "frequencyRank": 97,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько стоит доехать до центра?",
+      "stressed": null,
+      "pronunciation": "skòl'ka stòit dajèhat da tsèntra",
+      "audioText": "Сколько стоит доехать до центра?",
+      "frequencyRank": 97,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "stoit",
+      "doekhat",
+      "tsentr"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-04",
+    "it": {
+      "text": "Mi porti all'aeroporto, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi porti all'aeroporto, per favore.",
+      "frequencyRank": 98,
+      "example": null
+    },
+    "ru": {
+      "text": "Отвезите меня в аэропорт, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "atvizìte minjà v aerapòrt, pazhàlusta",
+      "audioText": "Отвезите меня в аэропорт, пожалуйста.",
+      "frequencyRank": 98,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 4,
+    "keywords": [
+      "aeroport",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-05",
+    "it": {
+      "text": "Mi porti a questo indirizzo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi porti a questo indirizzo.",
+      "frequencyRank": 99,
+      "example": null
+    },
+    "ru": {
+      "text": "Отвезите меня по этому адресу.",
+      "stressed": null,
+      "pronunciation": "atvizìte minjà pa ètamu àdrisu",
+      "audioText": "Отвезите меня по этому адресу.",
+      "frequencyRank": 99,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 4,
+    "keywords": [
+      "adres"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-06",
+    "it": {
+      "text": "Si fermi qui, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Si fermi qui, per favore.",
+      "frequencyRank": 100,
+      "example": null
+    },
+    "ru": {
+      "text": "Остановите здесь, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "astanavìte zdes, pazhàlusta",
+      "audioText": "Остановите здесь, пожалуйста.",
+      "frequencyRank": 100,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "keywords": [
+      "zdes",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-07",
+    "it": {
+      "text": "Posso pagare con la carta?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso pagare con la carta?",
+      "frequencyRank": 101,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно заплатить картой?",
+      "stressed": null,
+      "pronunciation": "mòzhna zaplatìt kàrtaj",
+      "audioText": "Можно заплатить картой?",
+      "frequencyRank": 101,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "keywords": [
+      "mozhno",
+      "platit",
+      "karta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-08",
+    "it": {
+      "text": "Accenda il tassametro, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Accenda il tassametro, per favore.",
+      "frequencyRank": 102,
+      "example": null
+    },
+    "ru": {
+      "text": "Включите счётчик, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "fklyuchìte shchòtchik, pazhàlusta",
+      "audioText": "Включите счётчик, пожалуйста.",
+      "frequencyRank": 102,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 5,
+    "keywords": [
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-09",
+    "it": {
+      "text": "Possiamo andare più veloci?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Possiamo andare più veloci?",
+      "frequencyRank": 103,
+      "example": null
+    },
+    "ru": {
+      "text": "Мы можем ехать быстрее?",
+      "stressed": null,
+      "pronunciation": "my mòzhym jèhat bystrèje",
+      "audioText": "Мы можем ехать быстрее?",
+      "frequencyRank": 103,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 4,
+    "keywords": [
+      "moch",
+      "ekhat",
+      "bystro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-10",
+    "it": {
+      "text": "Tenga il resto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Tenga il resto.",
+      "frequencyRank": 104,
+      "example": null
+    },
+    "ru": {
+      "text": "Сдачи не надо.",
+      "stressed": null,
+      "pronunciation": "sdàchi ni nàda",
+      "audioText": "Сдачи не надо.",
+      "frequencyRank": 104,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "keywords": [
+      "sdacha",
+      "nado"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "txi-11",
+    "it": {
+      "text": "Ho fretta.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho fretta.",
+      "frequencyRank": 105,
+      "example": null
+    },
+    "ru": {
+      "text": "Я тороплюсь.",
+      "stressed": null,
+      "pronunciation": "ja tarapljùs",
+      "audioText": "Я тороплюсь.",
+      "frequencyRank": 105,
+      "example": null
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "keywords": [
+      "toropitsya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-01",
+    "it": {
+      "text": "Posso avere il menù?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso avere il menù?",
+      "frequencyRank": 106,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно меню?",
+      "stressed": null,
+      "pronunciation": "mòzhna minjù",
+      "audioText": "Можно меню?",
+      "frequencyRank": 106,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 1,
+    "keywords": [
+      "mozhno",
+      "menyu"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "счёт",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-02",
+    "it": {
+      "text": "Il menù, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Il menù, per favore.",
+      "frequencyRank": 107,
+      "example": null
+    },
+    "ru": {
+      "text": "Меню, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "minjù, pazhàlusta",
+      "audioText": "Меню, пожалуйста.",
+      "frequencyRank": 107,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 1,
+    "keywords": [
+      "menyu",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-03",
+    "it": {
+      "text": "Vorrei una pizza.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Vorrei una pizza.",
+      "frequencyRank": 108,
+      "example": null
+    },
+    "ru": {
+      "text": "Я хотел бы пиццу.",
+      "stressed": null,
+      "pronunciation": "ja hatèl by pìtsu",
+      "audioText": "Я хотел бы пиццу.",
+      "frequencyRank": 108,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "khotet",
+      "pitstsa"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "пиво",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-04",
+    "it": {
+      "text": "Cosa mi consiglia?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Cosa mi consiglia?",
+      "frequencyRank": 109,
+      "example": null
+    },
+    "ru": {
+      "text": "Что вы посоветуете?",
+      "stressed": null,
+      "pronunciation": "shto vy pasavètujite",
+      "audioText": "Что вы посоветуете?",
+      "frequencyRank": 109,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "chto",
+      "vy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-05",
+    "it": {
+      "text": "Il conto, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Il conto, per favore.",
+      "frequencyRank": 110,
+      "example": null
+    },
+    "ru": {
+      "text": "Счёт, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "shchot, pazhàlusta",
+      "audioText": "Счёт, пожалуйста.",
+      "frequencyRank": 110,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 2,
+    "keywords": [
+      "schyot",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-06",
+    "it": {
+      "text": "Quanto costa?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto costa?",
+      "frequencyRank": 111,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько стоит?",
+      "stressed": null,
+      "pronunciation": "skòl'ka stòit",
+      "audioText": "Сколько стоит?",
+      "frequencyRank": 111,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 1,
+    "keywords": [
+      "skolko",
+      "stoit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-07",
+    "it": {
+      "text": "Senza cipolla, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Senza cipolla, per favore.",
+      "frequencyRank": 112,
+      "example": null
+    },
+    "ru": {
+      "text": "Без лука, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "bes lùka, pazhàlusta",
+      "audioText": "Без лука, пожалуйста.",
+      "frequencyRank": 112,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 2,
+    "keywords": [
+      "bez",
+      "luk",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "соль",
+        "с"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-08",
+    "it": {
+      "text": "Molto buono!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Molto buono!",
+      "frequencyRank": 113,
+      "example": null
+    },
+    "ru": {
+      "text": "Очень вкусно!",
+      "stressed": null,
+      "pronunciation": "òchen fkùsna",
+      "audioText": "Очень вкусно!",
+      "frequencyRank": 113,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 1,
+    "keywords": [
+      "ochen",
+      "vkusno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-09",
+    "it": {
+      "text": "Un tavolo per due, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un tavolo per due, per favore.",
+      "frequencyRank": 114,
+      "example": null
+    },
+    "ru": {
+      "text": "Столик на двоих, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "stòlik na dvaìh, pazhàlusta",
+      "audioText": "Столик на двоих, пожалуйста.",
+      "frequencyRank": 114,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "stolik",
+      "dva"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-10",
+    "it": {
+      "text": "Avete un tavolo libero?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Avete un tavolo libero?",
+      "frequencyRank": 115,
+      "example": null
+    },
+    "ru": {
+      "text": "У вас есть свободный столик?",
+      "stressed": null,
+      "pronunciation": "u vas jest svabòdnyj stòlik",
+      "audioText": "У вас есть свободный столик?",
+      "frequencyRank": 115,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "svobodnyy",
+      "stolik"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-11",
+    "it": {
+      "text": "Sono allergico alle noci.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sono allergico alle noci.",
+      "frequencyRank": 116,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня аллергия на орехи.",
+      "stressed": null,
+      "pronunciation": "u minjà alirgìja na arèhi",
+      "audioText": "У меня аллергия на орехи.",
+      "frequencyRank": 116,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "allergiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-12",
+    "it": {
+      "text": "Sono vegetariano.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sono vegetariano.",
+      "frequencyRank": 117,
+      "example": null
+    },
+    "ru": {
+      "text": "Я вегетарианец.",
+      "stressed": null,
+      "pronunciation": "ja vigitariànets",
+      "audioText": "Я вегетарианец.",
+      "frequencyRank": 117,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "vegetarianets"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-13",
+    "it": {
+      "text": "Posso avere ancora dell'acqua?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso avere ancora dell'acqua?",
+      "frequencyRank": 118,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно ещё воды?",
+      "stressed": null,
+      "pronunciation": "mòzhna jishchò vadỳ",
+      "audioText": "Можно ещё воды?",
+      "frequencyRank": 118,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "mozhno",
+      "eshchyo",
+      "voda"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-14",
+    "it": {
+      "text": "È molto piccante.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È molto piccante.",
+      "frequencyRank": 119,
+      "example": null
+    },
+    "ru": {
+      "text": "Это очень остро.",
+      "stressed": null,
+      "pronunciation": "èta òchen òstra",
+      "audioText": "Это очень остро.",
+      "frequencyRank": 119,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "ochen",
+      "ostryy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-15",
+    "it": {
+      "text": "Non ho ordinato questo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Non ho ordinato questo.",
+      "frequencyRank": 120,
+      "example": null
+    },
+    "ru": {
+      "text": "Я это не заказывал.",
+      "stressed": null,
+      "pronunciation": "ja èta ni zakàzyval",
+      "audioText": "Я это не заказывал.",
+      "frequencyRank": 120,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "zakazat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-16",
+    "it": {
+      "text": "Siamo pronti per ordinare.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Siamo pronti per ordinare.",
+      "frequencyRank": 121,
+      "example": null
+    },
+    "ru": {
+      "text": "Мы готовы заказать.",
+      "stressed": null,
+      "pronunciation": "my gàtavy zakazàt",
+      "audioText": "Мы готовы заказать.",
+      "frequencyRank": 121,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "zakazat",
+      "my"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-17",
+    "it": {
+      "text": "Era tutto ottimo, grazie.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Era tutto ottimo, grazie.",
+      "frequencyRank": 122,
+      "example": null
+    },
+    "ru": {
+      "text": "Всё было отлично, спасибо.",
+      "stressed": null,
+      "pronunciation": "vsyo bỳla atlìchna, spasìba",
+      "audioText": "Всё было отлично, спасибо.",
+      "frequencyRank": 122,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "vsyo",
+      "spasibo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-18",
+    "it": {
+      "text": "Buon appetito!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Buon appetito!",
+      "frequencyRank": 123,
+      "example": null
+    },
+    "ru": {
+      "text": "Приятного аппетита!",
+      "stressed": null,
+      "pronunciation": "prijàtnava apitìta",
+      "audioText": "Приятного аппетита!",
+      "frequencyRank": 123,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "keywords": [
+      "eda"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-19",
+    "it": {
+      "text": "Possiamo pagare separatamente?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Possiamo pagare separatamente?",
+      "frequencyRank": 124,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно счёт отдельно?",
+      "stressed": null,
+      "pronunciation": "mòzhna shchot atdèl'na",
+      "audioText": "Можно счёт отдельно?",
+      "frequencyRank": 124,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "mozhno",
+      "schyot"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-20",
+    "it": {
+      "text": "Ho prenotato un tavolo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho prenotato un tavolo.",
+      "frequencyRank": 125,
+      "example": null
+    },
+    "ru": {
+      "text": "Я забронировал столик.",
+      "stressed": null,
+      "pronunciation": "ja zabranìraval stòlik",
+      "audioText": "Я забронировал столик.",
+      "frequencyRank": 125,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 4,
+    "keywords": [
+      "zabronirovat",
+      "stolik"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-21",
+    "it": {
+      "text": "Che cos'è questo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Che cos'è questo?",
+      "frequencyRank": 126,
+      "example": null
+    },
+    "ru": {
+      "text": "Что это такое?",
+      "stressed": null,
+      "pronunciation": "shto èta takòje",
+      "audioText": "Что это такое?",
+      "frequencyRank": 126,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 2,
+    "keywords": [
+      "chto",
+      "eto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "res-22",
+    "it": {
+      "text": "Questo, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Questo, per favore.",
+      "frequencyRank": 127,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне это, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "mne èta, pazhàlusta",
+      "audioText": "Мне это, пожалуйста.",
+      "frequencyRank": 127,
+      "example": null
+    },
+    "category": "restaurant",
+    "difficulty": 2,
+    "keywords": [
+      "eto",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Utilissima: basta indicare il menù.",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-01",
+    "it": {
+      "text": "Una birra, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Una birra, per favore.",
+      "frequencyRank": 128,
+      "example": null
+    },
+    "ru": {
+      "text": "Одно пиво, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "adnò pìva, pazhàlusta",
+      "audioText": "Одно пиво, пожалуйста.",
+      "frequencyRank": 128,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "odin",
+      "pivo",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "вино",
+        "два"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-02",
+    "it": {
+      "text": "Due birre, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Due birre, per favore.",
+      "frequencyRank": 129,
+      "example": null
+    },
+    "ru": {
+      "text": "Два пива, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "dva pìva, pazhàlusta",
+      "audioText": "Два пива, пожалуйста.",
+      "frequencyRank": 129,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "dva",
+      "pivo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-03",
+    "it": {
+      "text": "Acqua, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Acqua, per favore.",
+      "frequencyRank": 130,
+      "example": null
+    },
+    "ru": {
+      "text": "Воду, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "vòdu, pazhàlusta",
+      "audioText": "Воду, пожалуйста.",
+      "frequencyRank": 130,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 1,
+    "keywords": [
+      "voda",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-04",
+    "it": {
+      "text": "Acqua naturale, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Acqua naturale, per favore.",
+      "frequencyRank": 131,
+      "example": null
+    },
+    "ru": {
+      "text": "Воду без газа, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "vòdu bes gàza, pazhàlusta",
+      "audioText": "Воду без газа, пожалуйста.",
+      "frequencyRank": 131,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 3,
+    "keywords": [
+      "voda",
+      "bez"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-05",
+    "it": {
+      "text": "Un caffè, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un caffè, per favore.",
+      "frequencyRank": 132,
+      "example": null
+    },
+    "ru": {
+      "text": "Один кофе, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "adìn kòfe, pazhàlusta",
+      "audioText": "Один кофе, пожалуйста.",
+      "frequencyRank": 132,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 1,
+    "keywords": [
+      "odin",
+      "kofe"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-06",
+    "it": {
+      "text": "Tè al limone, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Tè al limone, per favore.",
+      "frequencyRank": 133,
+      "example": null
+    },
+    "ru": {
+      "text": "Чай с лимоном, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "chaj s limònam, pazhàlusta",
+      "audioText": "Чай с лимоном, пожалуйста.",
+      "frequencyRank": 133,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "chay",
+      "limon"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-07",
+    "it": {
+      "text": "Un calice di vino rosso, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un calice di vino rosso, per favore.",
+      "frequencyRank": 134,
+      "example": null
+    },
+    "ru": {
+      "text": "Бокал красного вина, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "bakàl kràsnava vinà, pazhàlusta",
+      "audioText": "Бокал красного вина, пожалуйста.",
+      "frequencyRank": 134,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 4,
+    "keywords": [
+      "krasnyy",
+      "vino"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-08",
+    "it": {
+      "text": "Con ghiaccio, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Con ghiaccio, per favore.",
+      "frequencyRank": 135,
+      "example": null
+    },
+    "ru": {
+      "text": "Со льдом, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "sa l'dòm, pazhàlusta",
+      "audioText": "Со льдом, пожалуйста.",
+      "frequencyRank": 135,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 3,
+    "keywords": [
+      "lyod"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-09",
+    "it": {
+      "text": "Senza zucchero, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Senza zucchero, per favore.",
+      "frequencyRank": 136,
+      "example": null
+    },
+    "ru": {
+      "text": "Без сахара, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "bes sàhara, pazhàlusta",
+      "audioText": "Без сахара, пожалуйста.",
+      "frequencyRank": 136,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "bez",
+      "sakhar"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-10",
+    "it": {
+      "text": "Un altro, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Un altro, per favore.",
+      "frequencyRank": 137,
+      "example": null
+    },
+    "ru": {
+      "text": "Ещё один, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "jishchò adìn, pazhàlusta",
+      "audioText": "Ещё один, пожалуйста.",
+      "frequencyRank": 137,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "eshchyo",
+      "odin"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-11",
+    "it": {
+      "text": "C'è il Wi-Fi qui?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "C'è il Wi-Fi qui?",
+      "frequencyRank": 138,
+      "example": null
+    },
+    "ru": {
+      "text": "Здесь есть Wi-Fi?",
+      "stressed": null,
+      "pronunciation": "zdes jest vàj-fàj",
+      "audioText": "Здесь есть Wi-Fi?",
+      "frequencyRank": 138,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "zdes",
+      "internet"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-12",
+    "it": {
+      "text": "Che cosa avete?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Che cosa avete?",
+      "frequencyRank": 139,
+      "example": null
+    },
+    "ru": {
+      "text": "Что у вас есть?",
+      "stressed": null,
+      "pronunciation": "shto u vas jest",
+      "audioText": "Что у вас есть?",
+      "frequencyRank": 139,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 2,
+    "keywords": [
+      "chto",
+      "vy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "bar-13",
+    "it": {
+      "text": "Da portare via, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Da portare via, per favore.",
+      "frequencyRank": 140,
+      "example": null
+    },
+    "ru": {
+      "text": "На вынос, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "na vỳnas, pazhàlusta",
+      "audioText": "На вынос, пожалуйста.",
+      "frequencyRank": 140,
+      "example": null
+    },
+    "category": "bar",
+    "difficulty": 3,
+    "keywords": [
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-01",
+    "it": {
+      "text": "Ho una prenotazione.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho una prenotazione.",
+      "frequencyRank": 141,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня бронь.",
+      "stressed": null,
+      "pronunciation": "u minjà bron",
+      "audioText": "У меня бронь.",
+      "frequencyRank": 141,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 2,
+    "keywords": [
+      "bron"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "ключ",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-02",
+    "it": {
+      "text": "Avete una camera libera?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Avete una camera libera?",
+      "frequencyRank": 142,
+      "example": null
+    },
+    "ru": {
+      "text": "У вас есть свободная комната?",
+      "stressed": null,
+      "pronunciation": "u vas jest svabòdnaja kòmnata",
+      "audioText": "У вас есть свободная комната?",
+      "frequencyRank": 142,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "svobodnyy",
+      "komnata"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-03",
+    "it": {
+      "text": "Per due notti.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Per due notti.",
+      "frequencyRank": 143,
+      "example": null
+    },
+    "ru": {
+      "text": "На две ночи.",
+      "stressed": null,
+      "pronunciation": "na dve nòchi",
+      "audioText": "На две ночи.",
+      "frequencyRank": 143,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 2,
+    "keywords": [
+      "dva",
+      "noch"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "три",
+        "дня"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-04",
+    "it": {
+      "text": "Per una persona.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Per una persona.",
+      "frequencyRank": 144,
+      "example": null
+    },
+    "ru": {
+      "text": "На одного человека.",
+      "stressed": null,
+      "pronunciation": "na adnavò chilavèka",
+      "audioText": "На одного человека.",
+      "frequencyRank": 144,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "odin",
+      "chelovek"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-05",
+    "it": {
+      "text": "A che ora è la colazione?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora è la colazione?",
+      "frequencyRank": 145,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько завтрак?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka zàvtrak",
+      "audioText": "Во сколько завтрак?",
+      "frequencyRank": 145,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 2,
+    "keywords": [
+      "skolko",
+      "zavtrak"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-06",
+    "it": {
+      "text": "A che ora è il check-out?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora è il check-out?",
+      "frequencyRank": 146,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько выезд?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka vỳjizd",
+      "audioText": "Во сколько выезд?",
+      "frequencyRank": 146,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 4,
+    "keywords": [
+      "skolko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-07",
+    "it": {
+      "text": "Posso lasciare il bagaglio?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso lasciare il bagaglio?",
+      "frequencyRank": 147,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно оставить багаж?",
+      "stressed": null,
+      "pronunciation": "mòzhna astàvit bagàsh",
+      "audioText": "Можно оставить багаж?",
+      "frequencyRank": 147,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "mozhno",
+      "ostavit",
+      "bagazh"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-08",
+    "it": {
+      "text": "Dov'è la mia camera?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la mia camera?",
+      "frequencyRank": 148,
+      "example": null
+    },
+    "ru": {
+      "text": "Где моя комната?",
+      "stressed": null,
+      "pronunciation": "gde majà kòmnata",
+      "audioText": "Где моя комната?",
+      "frequencyRank": 148,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 2,
+    "keywords": [
+      "gde",
+      "komnata"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-09",
+    "it": {
+      "text": "Qual è la password del Wi-Fi?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Qual è la password del Wi-Fi?",
+      "frequencyRank": 149,
+      "example": null
+    },
+    "ru": {
+      "text": "Какой пароль от Wi-Fi?",
+      "stressed": null,
+      "pronunciation": "kakòj paròl at vàj-fàja",
+      "audioText": "Какой пароль от Wi-Fi?",
+      "frequencyRank": 149,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "kakoy",
+      "parol"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-10",
+    "it": {
+      "text": "La chiave, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "La chiave, per favore.",
+      "frequencyRank": 150,
+      "example": null
+    },
+    "ru": {
+      "text": "Ключ, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "klyuch, pazhàlusta",
+      "audioText": "Ключ, пожалуйста.",
+      "frequencyRank": 150,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 1,
+    "keywords": [
+      "klyuch",
+      "pozhaluysta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-11",
+    "it": {
+      "text": "In camera fa freddo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "In camera fa freddo.",
+      "frequencyRank": 151,
+      "example": null
+    },
+    "ru": {
+      "text": "В комнате холодно.",
+      "stressed": null,
+      "pronunciation": "f kòmnate hòladna",
+      "audioText": "В комнате холодно.",
+      "frequencyRank": 151,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "komnata",
+      "kholodno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-12",
+    "it": {
+      "text": "La doccia non funziona.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "La doccia non funziona.",
+      "frequencyRank": 152,
+      "example": null
+    },
+    "ru": {
+      "text": "Не работает душ.",
+      "stressed": null,
+      "pronunciation": "ni rabòtajit dush",
+      "audioText": "Не работает душ.",
+      "frequencyRank": 152,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "rabotat",
+      "dush"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-13",
+    "it": {
+      "text": "Posso avere un altro asciugamano?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso avere un altro asciugamano?",
+      "frequencyRank": 153,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно ещё одно полотенце?",
+      "stressed": null,
+      "pronunciation": "mòzhna jishchò adnò palatèntse",
+      "audioText": "Можно ещё одно полотенце?",
+      "frequencyRank": 153,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 4,
+    "keywords": [
+      "mozhno",
+      "polotentse"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-14",
+    "it": {
+      "text": "Dov'è l'ascensore?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è l'ascensore?",
+      "frequencyRank": 154,
+      "example": null
+    },
+    "ru": {
+      "text": "Где лифт?",
+      "stressed": null,
+      "pronunciation": "gde lift",
+      "audioText": "Где лифт?",
+      "frequencyRank": 154,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 1,
+    "keywords": [
+      "gde",
+      "lift"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-15",
+    "it": {
+      "text": "A che piano?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che piano?",
+      "frequencyRank": 155,
+      "example": null
+    },
+    "ru": {
+      "text": "На каком этаже?",
+      "stressed": null,
+      "pronunciation": "na kakòm etazhè",
+      "audioText": "На каком этаже?",
+      "frequencyRank": 155,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "kakoy",
+      "etazh"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "htl-16",
+    "it": {
+      "text": "Ecco il mio passaporto e la prenotazione.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ecco il mio passaporto e la prenotazione.",
+      "frequencyRank": 156,
+      "example": null
+    },
+    "ru": {
+      "text": "Вот мой паспорт и бронь.",
+      "stressed": null,
+      "pronunciation": "vot moj pàspart i bron",
+      "audioText": "Вот мой паспорт и бронь.",
+      "frequencyRank": 156,
+      "example": null
+    },
+    "category": "hotel",
+    "difficulty": 3,
+    "keywords": [
+      "pasport",
+      "bron"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-01",
+    "it": {
+      "text": "Quanto costa questo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto costa questo?",
+      "frequencyRank": 157,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько это стоит?",
+      "stressed": null,
+      "pronunciation": "skòl'ka èta stòit",
+      "audioText": "Сколько это стоит?",
+      "frequencyRank": 157,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 1,
+    "keywords": [
+      "skolko",
+      "eto",
+      "stoit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "где",
+        "дорого"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-02",
+    "it": {
+      "text": "È troppo caro.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È troppo caro.",
+      "frequencyRank": 158,
+      "example": null
+    },
+    "ru": {
+      "text": "Это слишком дорого.",
+      "stressed": null,
+      "pronunciation": "èta slìshkam dòraga",
+      "audioText": "Это слишком дорого.",
+      "frequencyRank": 158,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "eto",
+      "dorogo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-03",
+    "it": {
+      "text": "Fate uno sconto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Fate uno sconto?",
+      "frequencyRank": 159,
+      "example": null
+    },
+    "ru": {
+      "text": "У вас есть скидка?",
+      "stressed": null,
+      "pronunciation": "u vas jest skìtka",
+      "audioText": "У вас есть скидка?",
+      "frequencyRank": 159,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "skidka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-04",
+    "it": {
+      "text": "Posso provarlo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso provarlo?",
+      "frequencyRank": 160,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно примерить?",
+      "stressed": null,
+      "pronunciation": "mòzhna primèrit",
+      "audioText": "Можно примерить?",
+      "frequencyRank": 160,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "mozhno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-05",
+    "it": {
+      "text": "Avete un'altra taglia?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Avete un'altra taglia?",
+      "frequencyRank": 161,
+      "example": null
+    },
+    "ru": {
+      "text": "У вас есть другой размер?",
+      "stressed": null,
+      "pronunciation": "u vas jest drugòj razmèr",
+      "audioText": "У вас есть другой размер?",
+      "frequencyRank": 161,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "razmer"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-06",
+    "it": {
+      "text": "Sto solo guardando.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Sto solo guardando.",
+      "frequencyRank": 162,
+      "example": null
+    },
+    "ru": {
+      "text": "Я просто смотрю.",
+      "stressed": null,
+      "pronunciation": "ja pròsta smatrjù",
+      "audioText": "Я просто смотрю.",
+      "frequencyRank": 162,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "smotret"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-07",
+    "it": {
+      "text": "Prendo questo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Prendo questo.",
+      "frequencyRank": 163,
+      "example": null
+    },
+    "ru": {
+      "text": "Я возьму это.",
+      "stressed": null,
+      "pronunciation": "ja vaz'mù èta",
+      "audioText": "Я возьму это.",
+      "frequencyRank": 163,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 3,
+    "keywords": [
+      "brat-prendere",
+      "eto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-08",
+    "it": {
+      "text": "Posso avere un sacchetto?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso avere un sacchetto?",
+      "frequencyRank": 164,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно пакет?",
+      "stressed": null,
+      "pronunciation": "mòzhna pakèt",
+      "audioText": "Можно пакет?",
+      "frequencyRank": 164,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 2,
+    "keywords": [
+      "mozhno",
+      "paket"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-09",
+    "it": {
+      "text": "Posso avere lo scontrino?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso avere lo scontrino?",
+      "frequencyRank": 165,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно чек?",
+      "stressed": null,
+      "pronunciation": "mòzhna chek",
+      "audioText": "Можно чек?",
+      "frequencyRank": 165,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 2,
+    "keywords": [
+      "mozhno",
+      "chek"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-10",
+    "it": {
+      "text": "Posso pagare in contanti?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso pagare in contanti?",
+      "frequencyRank": 166,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно заплатить наличными?",
+      "stressed": null,
+      "pronunciation": "mòzhna zaplatìt nalìchnymi",
+      "audioText": "Можно заплатить наличными?",
+      "frequencyRank": 166,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 4,
+    "keywords": [
+      "platit",
+      "nalichnye"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-11",
+    "it": {
+      "text": "Dov'è il camerino?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il camerino?",
+      "frequencyRank": 167,
+      "example": null
+    },
+    "ru": {
+      "text": "Где примерочная?",
+      "stressed": null,
+      "pronunciation": "gde primèrachnaja",
+      "audioText": "Где примерочная?",
+      "frequencyRank": 167,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 4,
+    "keywords": [
+      "gde"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-12",
+    "it": {
+      "text": "Ce l'avete in nero?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ce l'avete in nero?",
+      "frequencyRank": 168,
+      "example": null
+    },
+    "ru": {
+      "text": "У вас есть это в чёрном?",
+      "stressed": null,
+      "pronunciation": "u vas jest èta v chòrnam",
+      "audioText": "У вас есть это в чёрном?",
+      "frequencyRank": 168,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 4,
+    "keywords": [
+      "chyornyy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "shp-13",
+    "it": {
+      "text": "A che ora chiudete?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora chiudete?",
+      "frequencyRank": 169,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько вы закрываетесь?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka vy zakryvàjites",
+      "audioText": "Во сколько вы закрываетесь?",
+      "frequencyRank": 169,
+      "example": null
+    },
+    "category": "shopping",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "zakryt"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-01",
+    "it": {
+      "text": "Mi scusi, dov'è il bagno?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi scusi, dov'è il bagno?",
+      "frequencyRank": 170,
+      "example": null
+    },
+    "ru": {
+      "text": "Извините, где туалет?",
+      "stressed": null,
+      "pronunciation": "izvinìte, gde tualèt",
+      "audioText": "Извините, где туалет?",
+      "frequencyRank": 170,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 1,
+    "keywords": [
+      "izvinite",
+      "gde",
+      "tualet"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "метро",
+        "спасибо"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-02",
+    "it": {
+      "text": "Come si arriva in centro (a piedi)?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si arriva in centro",
+      "frequencyRank": 171,
+      "example": null
+    },
+    "ru": {
+      "text": "Как пройти в центр?",
+      "stressed": null,
+      "pronunciation": "kak prajtì f tsentr",
+      "audioText": "Как пройти в центр?",
+      "frequencyRank": 171,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "kak",
+      "tsentr"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-03",
+    "it": {
+      "text": "È lontano da qui?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È lontano da qui?",
+      "frequencyRank": 172,
+      "example": null
+    },
+    "ru": {
+      "text": "Это далеко отсюда?",
+      "stressed": null,
+      "pronunciation": "èta dalikò atsjùda",
+      "audioText": "Это далеко отсюда?",
+      "frequencyRank": 172,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "daleko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-04",
+    "it": {
+      "text": "Vada dritto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Vada dritto.",
+      "frequencyRank": 173,
+      "example": null
+    },
+    "ru": {
+      "text": "Идите прямо.",
+      "stressed": null,
+      "pronunciation": "idìte prjàma",
+      "audioText": "Идите прямо.",
+      "frequencyRank": 173,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 2,
+    "keywords": [
+      "idti",
+      "pryamo"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Risposta tipica: imparala per capirla, non solo per dirla.",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-05",
+    "it": {
+      "text": "Giri a destra.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Giri a destra.",
+      "frequencyRank": 174,
+      "example": null
+    },
+    "ru": {
+      "text": "Поверните направо.",
+      "stressed": null,
+      "pronunciation": "pavirnìte napràva",
+      "audioText": "Поверните направо.",
+      "frequencyRank": 174,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "povernut",
+      "pravyy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-06",
+    "it": {
+      "text": "Giri a sinistra.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Giri a sinistra.",
+      "frequencyRank": 175,
+      "example": null
+    },
+    "ru": {
+      "text": "Поверните налево.",
+      "stressed": null,
+      "pronunciation": "pavirnìte nalèva",
+      "audioText": "Поверните налево.",
+      "frequencyRank": 175,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "povernut",
+      "levyy"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-07",
+    "it": {
+      "text": "È qui vicino.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È qui vicino.",
+      "frequencyRank": 176,
+      "example": null
+    },
+    "ru": {
+      "text": "Это рядом.",
+      "stressed": null,
+      "pronunciation": "èta rjàdam",
+      "audioText": "Это рядом.",
+      "frequencyRank": 176,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 2,
+    "keywords": [
+      "blizko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-08",
+    "it": {
+      "text": "Me lo mostri sulla mappa, per favore.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Me lo mostri sulla mappa, per favore.",
+      "frequencyRank": 177,
+      "example": null
+    },
+    "ru": {
+      "text": "Покажите на карте, пожалуйста.",
+      "stressed": null,
+      "pronunciation": "pakazhỳte na kàrte, pazhàlusta",
+      "audioText": "Покажите на карте, пожалуйста.",
+      "frequencyRank": 177,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "pokazat",
+      "karta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-09",
+    "it": {
+      "text": "Mi sono perso.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi sono perso.",
+      "frequencyRank": 178,
+      "example": null
+    },
+    "ru": {
+      "text": "Я заблудился.",
+      "stressed": null,
+      "pronunciation": "ja zabludìlsja",
+      "audioText": "Я заблудился.",
+      "frequencyRank": 178,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "poteryat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-10",
+    "it": {
+      "text": "Dove mi trovo?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dove mi trovo?",
+      "frequencyRank": 179,
+      "example": null
+    },
+    "ru": {
+      "text": "Где я нахожусь?",
+      "stressed": null,
+      "pronunciation": "gde ja nahazhùs",
+      "audioText": "Где я нахожусь?",
+      "frequencyRank": 179,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 4,
+    "keywords": [
+      "gde"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-11",
+    "it": {
+      "text": "Come si chiama questa via?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Come si chiama questa via?",
+      "frequencyRank": 180,
+      "example": null
+    },
+    "ru": {
+      "text": "Как называется эта улица?",
+      "stressed": null,
+      "pronunciation": "kak nazyvàjitsa èta ùlitsa",
+      "audioText": "Как называется эта улица?",
+      "frequencyRank": 180,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 4,
+    "keywords": [
+      "kak",
+      "ulitsa"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-12",
+    "it": {
+      "text": "Quanto ci vuole a piedi?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto ci vuole a piedi?",
+      "frequencyRank": 181,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько идти пешком?",
+      "stressed": null,
+      "pronunciation": "skòl'ka ittì pishkòm",
+      "audioText": "Сколько идти пешком?",
+      "frequencyRank": 181,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "idti"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-13",
+    "it": {
+      "text": "Dov'è il bancomat più vicino?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è il bancomat più vicino?",
+      "frequencyRank": 182,
+      "example": null
+    },
+    "ru": {
+      "text": "Где ближайший банкомат?",
+      "stressed": null,
+      "pronunciation": "gde blizhàjshij bankamàt",
+      "audioText": "Где ближайший банкомат?",
+      "frequencyRank": 182,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "blizhayshiy",
+      "bankomat"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "аптека",
+        "далеко"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-14",
+    "it": {
+      "text": "Dov'è la farmacia più vicina?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la farmacia più vicina?",
+      "frequencyRank": 183,
+      "example": null
+    },
+    "ru": {
+      "text": "Где ближайшая аптека?",
+      "stressed": null,
+      "pronunciation": "gde blizhàjshaja aptèka",
+      "audioText": "Где ближайшая аптека?",
+      "frequencyRank": 183,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "blizhayshiy",
+      "apteka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-15",
+    "it": {
+      "text": "Dov'è la fermata dell'autobus?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è la fermata dell'autobus?",
+      "frequencyRank": 184,
+      "example": null
+    },
+    "ru": {
+      "text": "Где остановка автобуса?",
+      "stressed": null,
+      "pronunciation": "gde astanòvka aftòbusa",
+      "audioText": "Где остановка автобуса?",
+      "frequencyRank": 184,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "ostanovka",
+      "avtobus"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "ori-16",
+    "it": {
+      "text": "Mi scusi, mi può indicare?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi scusi, mi può indicare?",
+      "frequencyRank": 185,
+      "example": null
+    },
+    "ru": {
+      "text": "Извините, вы не подскажете?",
+      "stressed": null,
+      "pronunciation": "izvinìte, vy ni patskàzhyte",
+      "audioText": "Извините, вы не подскажете?",
+      "frequencyRank": 185,
+      "example": null
+    },
+    "category": "directions",
+    "difficulty": 4,
+    "keywords": [
+      "izvinite"
+    ],
+    "register": "neutral",
+    "note": {
+      "it": "Modo educatissimo di attaccare bottone per chiedere indicazioni.",
+      "ru": ""
+    },
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-01",
+    "it": {
+      "text": "Aiuto!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Aiuto!",
+      "frequencyRank": 186,
+      "example": null
+    },
+    "ru": {
+      "text": "Помогите!",
+      "stressed": null,
+      "pronunciation": "pamagìte",
+      "audioText": "Помогите!",
+      "frequencyRank": 186,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 2,
+    "keywords": [
+      "pomogite"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-02",
+    "it": {
+      "text": "Chiami un'ambulanza!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Chiami un'ambulanza!",
+      "frequencyRank": 187,
+      "example": null
+    },
+    "ru": {
+      "text": "Вызовите скорую!",
+      "stressed": null,
+      "pronunciation": "vỳzavite skòruju",
+      "audioText": "Вызовите скорую!",
+      "frequencyRank": 187,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "skoraya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-03",
+    "it": {
+      "text": "Chiami la polizia!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Chiami la polizia!",
+      "frequencyRank": 188,
+      "example": null
+    },
+    "ru": {
+      "text": "Вызовите полицию!",
+      "stressed": null,
+      "pronunciation": "vỳzavite palìtsyju",
+      "audioText": "Вызовите полицию!",
+      "frequencyRank": 188,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "politsiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-04",
+    "it": {
+      "text": "Ho bisogno di un medico.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho bisogno di un medico.",
+      "frequencyRank": 189,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужен врач.",
+      "stressed": null,
+      "pronunciation": "mne nùzhyn vrach",
+      "audioText": "Мне нужен врач.",
+      "frequencyRank": 189,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "nuzhno",
+      "vrach"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "такси",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-05",
+    "it": {
+      "text": "Mi sento male.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi sento male.",
+      "frequencyRank": 190,
+      "example": null
+    },
+    "ru": {
+      "text": "Я плохо себя чувствую.",
+      "stressed": null,
+      "pronunciation": "ja plòha sibjà chùstvuju",
+      "audioText": "Я плохо себя чувствую.",
+      "frequencyRank": 190,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 4,
+    "keywords": [
+      "plokho"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-06",
+    "it": {
+      "text": "Mi fa male la testa.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi fa male la testa.",
+      "frequencyRank": 191,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня болит голова.",
+      "stressed": null,
+      "pronunciation": "u minjà balìt galavà",
+      "audioText": "У меня болит голова.",
+      "frequencyRank": 191,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "bolet",
+      "golova"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-07",
+    "it": {
+      "text": "Mi fa male la pancia.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi fa male la pancia.",
+      "frequencyRank": 192,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня болит живот.",
+      "stressed": null,
+      "pronunciation": "u minjà balìt zhyvòt",
+      "audioText": "У меня болит живот.",
+      "frequencyRank": 192,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "bolet",
+      "zhivot"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-08",
+    "it": {
+      "text": "Ho perso il passaporto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho perso il passaporto.",
+      "frequencyRank": 193,
+      "example": null
+    },
+    "ru": {
+      "text": "Я потерял паспорт.",
+      "stressed": null,
+      "pronunciation": "ja patirjàl pàspart",
+      "audioText": "Я потерял паспорт.",
+      "frequencyRank": 193,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "poteryat",
+      "pasport"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "телефон",
+        "нашёл"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-09",
+    "it": {
+      "text": "Mi hanno rubato la borsa.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi hanno rubato la borsa.",
+      "frequencyRank": 194,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня украли сумку.",
+      "stressed": null,
+      "pronunciation": "u minjà ukràli sùmku",
+      "audioText": "У меня украли сумку.",
+      "frequencyRank": 194,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 4,
+    "keywords": [
+      "krazha",
+      "sumka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-10",
+    "it": {
+      "text": "Dov'è l'ospedale più vicino?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Dov'è l'ospedale più vicino?",
+      "frequencyRank": 195,
+      "example": null
+    },
+    "ru": {
+      "text": "Где ближайшая больница?",
+      "stressed": null,
+      "pronunciation": "gde blizhàjshaja balnìtsa",
+      "audioText": "Где ближайшая больница?",
+      "frequencyRank": 195,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "gde",
+      "bolnitsa"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-11",
+    "it": {
+      "text": "Mi si è scaricato il telefono.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi si è scaricato il telefono.",
+      "frequencyRank": 196,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня разрядился телефон.",
+      "stressed": null,
+      "pronunciation": "u minjà razrjadìlsja tilifòn",
+      "audioText": "У меня разрядился телефон.",
+      "frequencyRank": 196,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 4,
+    "keywords": [
+      "telefon",
+      "zaryadka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-12",
+    "it": {
+      "text": "Posso fare una telefonata?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Posso fare una telefonata?",
+      "frequencyRank": 197,
+      "example": null
+    },
+    "ru": {
+      "text": "Можно позвонить?",
+      "stressed": null,
+      "pronunciation": "mòzhna pazvanìt",
+      "audioText": "Можно позвонить?",
+      "frequencyRank": 197,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "mozhno",
+      "zvonit"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-13",
+    "it": {
+      "text": "Ho bisogno di aiuto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho bisogno di aiuto.",
+      "frequencyRank": 198,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужна помощь.",
+      "stressed": null,
+      "pronunciation": "mne nuzhnà pòmashch",
+      "audioText": "Мне нужна помощь.",
+      "frequencyRank": 198,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "nuzhno",
+      "pomoshch"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-14",
+    "it": {
+      "text": "Chiami l'ambasciata italiana.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Chiami l'ambasciata italiana.",
+      "frequencyRank": 199,
+      "example": null
+    },
+    "ru": {
+      "text": "Позвоните в посольство Италии.",
+      "stressed": null,
+      "pronunciation": "pazvanìte f pasòlstva Itàlii",
+      "audioText": "Позвоните в посольство Италии.",
+      "frequencyRank": 199,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 5,
+    "keywords": [
+      "zvonit",
+      "posolstvo",
+      "italiya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-15",
+    "it": {
+      "text": "Ho l'assicurazione.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ho l'assicurazione.",
+      "frequencyRank": 200,
+      "example": null
+    },
+    "ru": {
+      "text": "У меня есть страховка.",
+      "stressed": null,
+      "pronunciation": "u minjà jest strahòvka",
+      "audioText": "У меня есть страховка.",
+      "frequencyRank": 200,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "strakhovka"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-16",
+    "it": {
+      "text": "Mi serve una medicina.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mi serve una medicina.",
+      "frequencyRank": 201,
+      "example": null
+    },
+    "ru": {
+      "text": "Мне нужно лекарство.",
+      "stressed": null,
+      "pronunciation": "mne nùzhna likàrstva",
+      "audioText": "Мне нужно лекарство.",
+      "frequencyRank": 201,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 3,
+    "keywords": [
+      "nuzhno",
+      "lekarstvo"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "emg-17",
+    "it": {
+      "text": "Attenzione!",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Attenzione!",
+      "frequencyRank": 202,
+      "example": null
+    },
+    "ru": {
+      "text": "Осторожно!",
+      "stressed": null,
+      "pronunciation": "astaròzhna",
+      "audioText": "Осторожно!",
+      "frequencyRank": 202,
+      "example": null
+    },
+    "category": "emergency",
+    "difficulty": 2,
+    "keywords": [
+      "ostorozhno"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-01",
+    "it": {
+      "text": "Che ore sono?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Che ore sono?",
+      "frequencyRank": 203,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько времени?",
+      "stressed": null,
+      "pronunciation": "skòl'ka vrèmini",
+      "audioText": "Сколько времени?",
+      "frequencyRank": 203,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "skolko",
+      "vremya"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {
+      "ru": [
+        "стоит",
+        "где"
+      ]
+    },
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-02",
+    "it": {
+      "text": "Che ora è?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Che ora è?",
+      "frequencyRank": 204,
+      "example": null
+    },
+    "ru": {
+      "text": "Который час?",
+      "stressed": null,
+      "pronunciation": "katòryj chas",
+      "audioText": "Который час?",
+      "frequencyRank": 204,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 3,
+    "keywords": [
+      "chas"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-03",
+    "it": {
+      "text": "A che ora?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "A che ora?",
+      "frequencyRank": 205,
+      "example": null
+    },
+    "ru": {
+      "text": "Во сколько?",
+      "stressed": null,
+      "pronunciation": "va skòl'ka",
+      "audioText": "Во сколько?",
+      "frequencyRank": 205,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "skolko"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-04",
+    "it": {
+      "text": "Alle dieci.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Alle dieci.",
+      "frequencyRank": 206,
+      "example": null
+    },
+    "ru": {
+      "text": "В десять часов.",
+      "stressed": null,
+      "pronunciation": "v dèsjat chisòf",
+      "audioText": "В десять часов.",
+      "frequencyRank": 206,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "desyat",
+      "chas"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-05",
+    "it": {
+      "text": "Fra cinque minuti.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Fra cinque minuti.",
+      "frequencyRank": 207,
+      "example": null
+    },
+    "ru": {
+      "text": "Через пять минут.",
+      "stressed": null,
+      "pronunciation": "chèris pjat minùt",
+      "audioText": "Через пять минут.",
+      "frequencyRank": 207,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 3,
+    "keywords": [
+      "pyat",
+      "minuta"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-06",
+    "it": {
+      "text": "Mezz'ora.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Mezz'ora.",
+      "frequencyRank": 208,
+      "example": null
+    },
+    "ru": {
+      "text": "Полчаса.",
+      "stressed": null,
+      "pronunciation": "polchisà",
+      "audioText": "Полчаса.",
+      "frequencyRank": 208,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 3,
+    "keywords": [
+      "polovina",
+      "chas"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-07",
+    "it": {
+      "text": "Domani mattina.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Domani mattina.",
+      "frequencyRank": 209,
+      "example": null
+    },
+    "ru": {
+      "text": "Завтра утром.",
+      "stressed": null,
+      "pronunciation": "zàvtra ùtram",
+      "audioText": "Завтра утром.",
+      "frequencyRank": 209,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "zavtra",
+      "utro"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-08",
+    "it": {
+      "text": "Ieri sera.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Ieri sera.",
+      "frequencyRank": 210,
+      "example": null
+    },
+    "ru": {
+      "text": "Вчера вечером.",
+      "stressed": null,
+      "pronunciation": "vchirà vècheram",
+      "audioText": "Вчера вечером.",
+      "frequencyRank": 210,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "vchera",
+      "vecher"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-09",
+    "it": {
+      "text": "Lunedì.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Lunedì.",
+      "frequencyRank": 211,
+      "example": null
+    },
+    "ru": {
+      "text": "В понедельник.",
+      "stressed": null,
+      "pronunciation": "f panidèlnik",
+      "audioText": "В понедельник.",
+      "frequencyRank": 211,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 3,
+    "keywords": [
+      "ponedelnik"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-10",
+    "it": {
+      "text": "Quanto tempo ci vuole?",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Quanto tempo ci vuole?",
+      "frequencyRank": 212,
+      "example": null
+    },
+    "ru": {
+      "text": "Сколько это займёт?",
+      "stressed": null,
+      "pronunciation": "skòl'ka èta zajmyòt",
+      "audioText": "Сколько это займёт?",
+      "frequencyRank": 212,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 4,
+    "keywords": [
+      "skolko",
+      "eto"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-11",
+    "it": {
+      "text": "Siamo in ritardo.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "Siamo in ritardo.",
+      "frequencyRank": 213,
+      "example": null
+    },
+    "ru": {
+      "text": "Мы опаздываем.",
+      "stressed": null,
+      "pronunciation": "my apàzdyvajim",
+      "audioText": "Мы опаздываем.",
+      "frequencyRank": 213,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 4,
+    "keywords": [
+      "opozdat",
+      "my"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  },
+  {
+    "id": "num-12",
+    "it": {
+      "text": "È ancora presto.",
+      "stressed": null,
+      "pronunciation": null,
+      "audioText": "È ancora presto.",
+      "frequencyRank": 214,
+      "example": null
+    },
+    "ru": {
+      "text": "Ещё рано.",
+      "stressed": null,
+      "pronunciation": "jishchò rànа",
+      "audioText": "Ещё рано.",
+      "frequencyRank": 214,
+      "example": null
+    },
+    "category": "time",
+    "difficulty": 2,
+    "keywords": [
+      "eshchyo",
+      "rano"
+    ],
+    "register": "neutral",
+    "note": null,
+    "distractors": {},
+    "alternatives": {},
+    "scenarioID": null
+  }
+]

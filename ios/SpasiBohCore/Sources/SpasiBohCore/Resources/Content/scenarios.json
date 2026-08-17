@@ -1,0 +1,2737 @@
+[
+  {
+    "id": "aeroporto-arrivo",
+    "direction": "it-ru",
+    "title": {
+      "it": "Arrivo in aeroporto",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Sei appena atterrato a Mosca. Devi passare il controllo passaporti e ritirare il bagaglio.",
+      "ru": ""
+    },
+    "category": "airport",
+    "difficulty": 2,
+    "steps": [
+      {
+        "id": "ae-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Salve! Il suo passaporto, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Здравствуйте! Ваш паспорт, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "zdràstvujte! vash pàspart, pazhàlusta",
+          "audioText": "Здравствуйте! Ваш паспорт, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti sta chiedendo l'agente?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Il suo passaporto, per favore.",
+          "Il suo biglietto, per favore.",
+          "Dove va?",
+          "Quanto bagaglio ha?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ae-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Ecco il mio passaporto.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Ecco il mio passaporto.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Вот мой паспорт.",
+          "stressed": null,
+          "pronunciation": "vot moj pàspart",
+          "audioText": "Вот мой паспорт.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "билет",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ae-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Qual è lo scopo del suo viaggio?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Какая цель вашей поездки?",
+          "stressed": null,
+          "pronunciation": "kakàja tsel vàshyj pajèstki",
+          "audioText": "Какая цель вашей поездки?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa vuole sapere?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Lo scopo del tuo viaggio.",
+          "Quanto tempo resti.",
+          "Dove alloggi.",
+          "Quanti soldi hai."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ae-4",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Qual è la risposta giusta?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Turismo.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Туризм.",
+          "stressed": null,
+          "pronunciation": "turìzm",
+          "audioText": "Туризм.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Туризм.",
+          "Где выход?",
+          "Я не понимаю.",
+          "Спасибо, пока."
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ae-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ora chiedi: «Dove si ritira il bagaglio?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Dove si ritira il bagaglio?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Где получить багаж?",
+          "stressed": null,
+          "pronunciation": "gde paluchìt bagàsh",
+          "audioText": "Где получить багаж?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "паспорт",
+            "когда"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ae-6",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Dritto e a sinistra, nastro numero tre.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Прямо и налево, третья лента.",
+          "stressed": null,
+          "pronunciation": "prjàma i nalèva, trètja lènta",
+          "audioText": "Прямо и налево, третья лента.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Dove devi andare?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dritto, poi a sinistra.",
+          "Dritto, poi a destra.",
+          "Indietro, al piano di sopra.",
+          "Fuori dal terminal."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ae-7",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ringrazia ad alta voce.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Grazie mille!",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Спасибо большое!",
+          "stressed": null,
+          "pronunciation": "spasìba balshòje",
+          "audioText": "Спасибо большое!",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "metro-trovare",
+    "direction": "it-ru",
+    "title": {
+      "it": "Trovare la metro",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Sei in strada con la valigia e devi raggiungere il centro. Una signora si accorge che sei spaesato.",
+      "ru": ""
+    },
+    "category": "metro",
+    "difficulty": 2,
+    "steps": [
+      {
+        "id": "me-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Scusi, le serve aiuto?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Извините, вам помочь?",
+          "stressed": null,
+          "pronunciation": "izvinìte, vam pamòch",
+          "audioText": "Извините, вам помочь?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti ha detto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Scusi, le serve aiuto?",
+          "Scusi, che ore sono?",
+          "Scusi, dove va?",
+          "Scusi, è italiano?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "me-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «Dov'è la stazione della metro più vicina?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Dov'è la stazione della metro più vicina?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Где ближайшая станция метро?",
+          "stressed": null,
+          "pronunciation": "gde blizhàjshaja stàntsija mitrò",
+          "audioText": "Где ближайшая станция метро?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "аптека",
+            "большая"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": {
+          "it": "Ordine: Где → ближайшая → станция → метро",
+          "ru": ""
+        }
+      },
+      {
+        "id": "me-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Vada dritto, poi a destra. È qui vicino.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Идите прямо, потом направо. Это рядом.",
+          "stressed": null,
+          "pronunciation": "idìte prjàma, patòm napràva. èta rjàdam",
+          "audioText": "Идите прямо, потом направо. Это рядом.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che indicazioni ti ha dato?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dritto, poi a destra — è vicino.",
+          "Dritto, poi a sinistra — è lontano.",
+          "Indietro fino al semaforo.",
+          "Prendi l'autobus numero tre."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "me-4",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi conferma: «È lontano?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "È lontano?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Это далеко?",
+          "stressed": null,
+          "pronunciation": "èta dalikò",
+          "audioText": "Это далеко?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "близко",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "me-5",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "No, cinque minuti a piedi.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Нет, пять минут пешком.",
+          "stressed": null,
+          "pronunciation": "net, pjat minùt pishkòm",
+          "audioText": "Нет, пять минут пешком.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Quanto ci vuole?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Cinque minuti a piedi.",
+          "Quindici minuti a piedi.",
+          "Cinque fermate di metro.",
+          "Mezz'ora in autobus."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "me-6",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Come ringrazi e ti congedi?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Grazie mille! Arrivederci!",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Спасибо большое! До свидания!",
+          "stressed": null,
+          "pronunciation": "spasìba balshòje! da svidànija",
+          "audioText": "Спасибо большое! До свидания!",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Спасибо большое! До свидания!",
+          "Сколько это стоит?",
+          "Я не понимаю.",
+          "Где мой багаж?"
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "me-7",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ripeti ad alta voce la frase chiave di questo scenario.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Dov'è la stazione della metro più vicina?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Где ближайшая станция метро?",
+          "stressed": null,
+          "pronunciation": "gde blizhàjshaja stàntsija mitrò",
+          "audioText": "Где ближайшая станция метро?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "treno-biglietto",
+    "direction": "it-ru",
+    "title": {
+      "it": "Comprare un biglietto",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Sei alla biglietteria della stazione e vuoi andare a Mosca.",
+      "ru": ""
+    },
+    "category": "train",
+    "difficulty": 3,
+    "steps": [
+      {
+        "id": "tb-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Salve! Dove va?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Здравствуйте! Куда вы едете?",
+          "stressed": null,
+          "pronunciation": "zdràstvujte! kudà vy jèdite",
+          "audioText": "Здравствуйте! Куда вы едете?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti chiede l'impiegata?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dove va?",
+          "Da dove viene?",
+          "Quando parte?",
+          "Quanti siete?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tb-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Un biglietto per Mosca, per favore.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Un biglietto per Mosca, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Один билет до Москвы, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "adìn bilèt da Maskvỳ, pazhàlusta",
+          "audioText": "Один билет до Москвы, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "два",
+            "вокзал"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tb-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Per oggi o per domani?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "На сегодня или на завтра?",
+          "stressed": null,
+          "pronunciation": "na sivòdnja ìli na zàvtra",
+          "audioText": "На сегодня или на завтра?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa vuole sapere?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Se lo vuoi per oggi o per domani.",
+          "Se vuoi andata e ritorno.",
+          "Se preferisci il finestrino.",
+          "Come vuoi pagare."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tb-4",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Vuoi partire domani mattina. Cosa dici?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Per domani, di mattina.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "На завтра, утром.",
+          "stressed": null,
+          "pronunciation": "na zàvtra, ùtram",
+          "audioText": "На завтра, утром.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "На завтра, утром.",
+          "На вчера, вечером.",
+          "Сколько это стоит?",
+          "Я не знаю."
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tb-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «Quanto costa?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Quanto costa?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Сколько это стоит?",
+          "stressed": null,
+          "pronunciation": "skòl'ka èta stòit",
+          "audioText": "Сколько это стоит?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "когда"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tb-6",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Duemila rubli.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Две тысячи рублей.",
+          "stressed": null,
+          "pronunciation": "dve tỳsichi rubljèj",
+          "audioText": "Две тысячи рублей.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Quanto costa il biglietto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "2000 rubli",
+          "200 rubli",
+          "20 rubli",
+          "12000 rubli"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tb-7",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «Posso pagare con la carta?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Posso pagare con la carta?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Можно заплатить картой?",
+          "stressed": null,
+          "pronunciation": "mòzhna zaplatìt kàrtaj",
+          "audioText": "Можно заплатить картой?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "наличными",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tb-8",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Sì, certo. Il suo treno parte dal binario tre.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Да, конечно. Ваш поезд с платформы номер три.",
+          "stressed": null,
+          "pronunciation": "da, kanèshna. vash pòjizt s platfòrmy nòmir tri",
+          "audioText": "Да, конечно. Ваш поезд с платформы номер три.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Da che binario parte il treno?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Binario 3",
+          "Binario 2",
+          "Binario 13",
+          "Binario 8"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "bar-ordinare",
+    "direction": "it-ru",
+    "title": {
+      "it": "Ordinare al bar",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Entri in un bar dopo una giornata in giro per la città.",
+      "ru": ""
+    },
+    "category": "bar",
+    "difficulty": 1,
+    "steps": [
+      {
+        "id": "ba-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Buonasera! Cosa prende?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Добрый вечер! Что будете?",
+          "stressed": null,
+          "pronunciation": "dòbryj vècher! shto bùdite",
+          "audioText": "Добрый вечер! Что будете?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti sta chiedendo il barista?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Cosa prende?",
+          "Ha prenotato?",
+          "Quanti siete?",
+          "Paga adesso?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ba-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ordina: «Una birra, per favore.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Una birra, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Одно пиво, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "adnò pìva, pazhàlusta",
+          "audioText": "Одно пиво, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "вино",
+            "два"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ba-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Chiara o scura?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Светлое или тёмное?",
+          "stressed": null,
+          "pronunciation": "svètlaje ìli tyòmnaje",
+          "audioText": "Светлое или тёмное?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che scelta ti sta dando?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Birra chiara o scura.",
+          "Bottiglia o alla spina.",
+          "Piccola o grande.",
+          "Fredda o a temperatura."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ba-4",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Vuoi quella chiara. Cosa rispondi?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Chiara, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Светлое, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "svètlaje, pazhàlusta",
+          "audioText": "Светлое, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Светлое, пожалуйста.",
+          "Тёмное, спасибо.",
+          "Воду, пожалуйста.",
+          "Счёт, пожалуйста."
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ba-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi anche: «C'è il Wi-Fi qui?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "C'è il Wi-Fi qui?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Здесь есть вай-фай?",
+          "stressed": null,
+          "pronunciation": "zdes jest vàj-fàj",
+          "audioText": "Здесь есть вай-фай?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "пароль"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ba-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Alla fine chiedi il conto.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Il conto, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Счёт, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "shchot, pazhàlusta",
+          "audioText": "Счёт, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "меню",
+            "вода"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "ristorante-cena",
+    "direction": "it-ru",
+    "title": {
+      "it": "Cena al ristorante",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Sei a cena in un ristorante nel centro di Mosca.",
+      "ru": ""
+    },
+    "category": "restaurant",
+    "difficulty": 3,
+    "steps": [
+      {
+        "id": "ri-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Buonasera! Un tavolo per quanti?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Добрый вечер! Столик на скольких?",
+          "stressed": null,
+          "pronunciation": "dòbryj vècher! stòlik na skòlkih",
+          "audioText": "Добрый вечер! Столик на скольких?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti chiede il cameriere?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Per quante persone è il tavolo.",
+          "Se hai prenotato.",
+          "Se vuoi mangiare fuori.",
+          "Come ti chiami."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ri-2",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Siete in due. Cosa rispondi?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Per due.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "На двоих.",
+          "stressed": null,
+          "pronunciation": "na dvaìh",
+          "audioText": "На двоих.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "На двоих.",
+          "На пять ночей.",
+          "Я один.",
+          "Спасибо, нет."
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ri-3",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi il menù.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Posso avere il menù?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Можно меню?",
+          "stressed": null,
+          "pronunciation": "mòzhna minjù",
+          "audioText": "Можно меню?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "счёт",
+            "вода"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ri-4",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Cosa ordinate?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Что будете заказывать?",
+          "stressed": null,
+          "pronunciation": "shto bùdite zakàzyvat",
+          "audioText": "Что будете заказывать?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti sta chiedendo?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Cosa vuoi ordinare.",
+          "Come stai.",
+          "Se hai fretta.",
+          "Se paghi in contanti."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ri-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ordina: «Vorrei una pizza.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Vorrei una pizza.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Я хотел бы пиццу.",
+          "stressed": null,
+          "pronunciation": "ja hatèl by pìtsu",
+          "audioText": "Я хотел бы пиццу.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "суп",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ri-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Aggiungi: «Senza cipolla, per favore.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Senza cipolla, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Без лука, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "bes lùka, pazhàlusta",
+          "audioText": "Без лука, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "соль",
+            "с"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ri-7",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Il piatto era ottimo: dillo ad alta voce.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Molto buono!",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Очень вкусно!",
+          "stressed": null,
+          "pronunciation": "òchen fkùsna",
+          "audioText": "Очень вкусно!",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ri-8",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi il conto.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Il conto, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Счёт, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "shchot, pazhàlusta",
+          "audioText": "Счёт, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "меню",
+            "ключ"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "hotel-checkin",
+    "direction": "it-ru",
+    "title": {
+      "it": "Check-in in hotel",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Arrivi in albergo con la prenotazione fatta online.",
+      "ru": ""
+    },
+    "category": "hotel",
+    "difficulty": 2,
+    "steps": [
+      {
+        "id": "ho-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Buongiorno! Ha una prenotazione?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Добрый день! У вас есть бронь?",
+          "stressed": null,
+          "pronunciation": "dòbryj den! u vas jest bron",
+          "audioText": "Добрый день! У вас есть бронь?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti chiede la receptionist?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Se hai una prenotazione.",
+          "Quante notti resti.",
+          "Se vuoi la colazione.",
+          "Se hai il passaporto."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ho-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Ho una prenotazione.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Ho una prenotazione.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "У меня бронь.",
+          "stressed": null,
+          "pronunciation": "u minjà bron",
+          "audioText": "У меня бронь.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "паспорт",
+            "нет"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ho-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Il suo passaporto, per favore. Per quante notti?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Ваш паспорт, пожалуйста. На сколько ночей?",
+          "stressed": null,
+          "pronunciation": "vash pàspart, pazhàlusta. na skòl'ka nachèj",
+          "audioText": "Ваш паспорт, пожалуйста. На сколько ночей?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti sta chiedendo, oltre al passaporto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Per quante notti resti.",
+          "A che ora arrivi.",
+          "Quante persone siete.",
+          "Se vuoi la colazione."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ho-4",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Per due notti.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Per due notti.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "На две ночи.",
+          "stressed": null,
+          "pronunciation": "na dve nòchi",
+          "audioText": "На две ночи.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "три",
+            "дня"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ho-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «A che ora è la colazione?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "A che ora è la colazione?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Во сколько завтрак?",
+          "stressed": null,
+          "pronunciation": "va skòl'ka zàvtrak",
+          "audioText": "Во сколько завтрак?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "ужин",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ho-6",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Colazione dalle sette alle dieci, al secondo piano.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Завтрак с семи до десяти, на втором этаже.",
+          "stressed": null,
+          "pronunciation": "zàvtrak s simì da disitì, na ftaròm etazhè",
+          "audioText": "Завтрак с семи до десяти, на втором этаже.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Quando e dove è la colazione?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dalle 7 alle 10, secondo piano.",
+          "Dalle 8 alle 11, piano terra.",
+          "Dalle 7 alle 10, terzo piano.",
+          "Solo su richiesta."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ho-7",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ultima cosa: chiedi la password del Wi-Fi.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Qual è la password del Wi-Fi?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Какой пароль от вай-фая?",
+          "stressed": null,
+          "pronunciation": "kakòj paròl at vàj-fàja",
+          "audioText": "Какой пароль от вай-фая?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "ключ"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "indicazioni",
+    "direction": "it-ru",
+    "title": {
+      "it": "Chiedere indicazioni",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Ti sei perso mentre cercavi la Piazza Rossa.",
+      "ru": ""
+    },
+    "category": "directions",
+    "difficulty": 3,
+    "steps": [
+      {
+        "id": "in-1",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ferma qualcuno: «Mi scusi, può aiutarmi?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Mi scusi, può aiutarmi?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Извините, вы можете мне помочь?",
+          "stressed": null,
+          "pronunciation": "izvinìte, vy mòzhyte mne pamòch",
+          "audioText": "Извините, вы можете мне помочь?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "спасибо",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "in-2",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Sì, certo. Che cosa cerca?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Да, конечно. Что вы ищете?",
+          "stressed": null,
+          "pronunciation": "da, kanèshna. shto vy ìshchite",
+          "audioText": "Да, конечно. Что вы ищете?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti ha risposto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Sì, certo. Che cosa cerca?",
+          "No, ho fretta.",
+          "Non parlo russo.",
+          "Sono anch'io turista."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "in-3",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Di': «Mi sono perso.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Mi sono perso.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Я заблудился.",
+          "stressed": null,
+          "pronunciation": "ja zabludìlsja",
+          "audioText": "Я заблудился.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "турист",
+            "нашёл"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "in-4",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «Come si arriva in centro?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Come si arriva in centro?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Как пройти в центр?",
+          "stressed": null,
+          "pronunciation": "kak prajtì f tsentr",
+          "audioText": "Как пройти в центр?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "аэропорт"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "in-5",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Vada dritto fino al semaforo, poi a sinistra.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Идите прямо до светофора, потом налево.",
+          "stressed": null,
+          "pronunciation": "idìte prjàma da svitafòra, patòm nalèva",
+          "audioText": "Идите прямо до светофора, потом налево.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che percorso devi fare?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dritto fino al semaforo, poi a sinistra.",
+          "Dritto fino al ponte, poi a destra.",
+          "A sinistra subito, poi dritto.",
+          "Torna indietro e prendi il bus."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "in-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Non sei sicuro: chiedi di mostrartelo sulla mappa.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Me lo mostri sulla mappa, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Покажите на карте, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "pakazhỳte na kàrte, pazhàlusta",
+          "audioText": "Покажите на карте, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "скажите",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "in-7",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ringrazia ad alta voce.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Grazie, mi ha aiutato molto!",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Спасибо, вы очень помогли!",
+          "stressed": null,
+          "pronunciation": "spasìba, vy òchen pamaglì",
+          "audioText": "Спасибо, вы очень помогли!",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "conoscere-qualcuno",
+    "direction": "it-ru",
+    "title": {
+      "it": "Conoscere qualcuno",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "Al bar dell'ostello qualcuno attacca discorso con te.",
+      "ru": ""
+    },
+    "category": "conversation",
+    "difficulty": 1,
+    "steps": [
+      {
+        "id": "co-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Ciao! Come va?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Привет! Как дела?",
+          "stressed": null,
+          "pronunciation": "privèt! kak dilà",
+          "audioText": "Привет! Как дела?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti ha detto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Ciao! Come va?",
+          "Ciao! Come ti chiami?",
+          "Ciao! Di dove sei?",
+          "Ciao! Dove vai?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "co-2",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Qual è la risposta naturale?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Bene, grazie. E tu?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Хорошо, спасибо. А ты?",
+          "stressed": null,
+          "pronunciation": "harashò, spasìba. a ty",
+          "audioText": "Хорошо, спасибо. А ты?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Хорошо, спасибо. А ты?",
+          "Мне двадцать восемь лет.",
+          "Я из Италии.",
+          "Где аэропорт?"
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "co-3",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Anch'io bene. Come ti chiami?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Тоже хорошо. Как тебя зовут?",
+          "stressed": null,
+          "pronunciation": "tòzhe harashò. kak tibjà zavùt",
+          "audioText": "Тоже хорошо. Как тебя зовут?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti sta chiedendo adesso?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Come ti chiami.",
+          "Quanti anni hai.",
+          "Da dove vieni.",
+          "Che lavoro fai."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "co-4",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Presentati: «Mi chiamo Michele.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Mi chiamo Michele.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Меня зовут Микеле.",
+          "stressed": null,
+          "pronunciation": "minjà zavùt Mikèle",
+          "audioText": "Меня зовут Микеле.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "тебя",
+            "как"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "co-5",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Molto piacere! Di dove sei?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Очень приятно! Откуда ты?",
+          "stressed": null,
+          "pronunciation": "òchen prijàtna! atkùda ty",
+          "audioText": "Очень приятно! Откуда ты?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa vuole sapere?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Di dove sei.",
+          "Dove vai.",
+          "Quanto resti.",
+          "Se parli russo."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "co-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Vengo dall'Italia.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Vengo dall'Italia.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Я из Италии.",
+          "stressed": null,
+          "pronunciation": "ja iz Itàlii",
+          "audioText": "Я из Италии.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "России",
+            "в"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "co-7",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Avvisa che il tuo russo è limitato.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Parlo un po' di russo.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Я немного говорю по-русски.",
+          "stressed": null,
+          "pronunciation": "ja nimnòga gavarjù pa-rùski",
+          "audioText": "Я немного говорю по-русски.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "не",
+            "по-английски"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "co-8",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi di parlare più lentamente, ad alta voce.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Parli più lentamente, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Говорите медленнее, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "gavarìte mèdlinije, pazhàlusta",
+          "audioText": "Говорите медленнее, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "acquisti",
+    "direction": "it-ru",
+    "title": {
+      "it": "Fare acquisti",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "In un negozio di souvenir vuoi comprare un regalo.",
+      "ru": ""
+    },
+    "category": "shopping",
+    "difficulty": 2,
+    "steps": [
+      {
+        "id": "ac-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Salve! Le serve aiuto?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Здравствуйте! Вам помочь?",
+          "stressed": null,
+          "pronunciation": "zdràstvujte! vam pamòch",
+          "audioText": "Здравствуйте! Вам помочь?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti ha detto la commessa?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Le serve aiuto?",
+          "Come si chiama?",
+          "Cosa cerca di preciso?",
+          "Abbiamo chiuso."
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ac-2",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Vuoi solo dare un'occhiata. Cosa rispondi?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Grazie, sto solo guardando.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Спасибо, я просто смотрю.",
+          "stressed": null,
+          "pronunciation": "spasìba, ja pròsta smatrjù",
+          "audioText": "Спасибо, я просто смотрю.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Спасибо, я просто смотрю.",
+          "Да, где касса?",
+          "Нет, я не понимаю.",
+          "Счёт, пожалуйста."
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ac-3",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Trovi qualcosa che ti piace. Chiedi: «Quanto costa questo?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Quanto costa questo?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Сколько это стоит?",
+          "stressed": null,
+          "pronunciation": "skòl'ka èta stòit",
+          "audioText": "Сколько это стоит?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "дорого"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ac-4",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Millecinquecento rubli.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Тысяча пятьсот рублей.",
+          "stressed": null,
+          "pronunciation": "tỳsicha pitsòt rubljèj",
+          "audioText": "Тысяча пятьсот рублей.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Quanto costa?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "1500 rubli",
+          "150 rubli",
+          "500 rubli",
+          "15000 rubli"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "ac-5",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Ti sembra tanto: «È troppo caro.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "È troppo caro.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Это слишком дорого.",
+          "stressed": null,
+          "pronunciation": "èta slìshkam dòraga",
+          "audioText": "Это слишком дорого.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "дёшево",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ac-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Decidi di prenderlo comunque: «Prendo questo.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Prendo questo.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Я возьму это.",
+          "stressed": null,
+          "pronunciation": "ja vaz'mù èta",
+          "audioText": "Я возьму это.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "куплю",
+            "не"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "ac-7",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi: «Posso pagare con la carta?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Posso pagare con la carta?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Можно заплатить картой?",
+          "stressed": null,
+          "pronunciation": "mòzhna zaplatìt kàrtaj",
+          "audioText": "Можно заплатить картой?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "наличными",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  },
+  {
+    "id": "taxi",
+    "direction": "it-ru",
+    "title": {
+      "it": "Prendere un taxi",
+      "ru": ""
+    },
+    "symbolName": "mappin.and.ellipse",
+    "intro": {
+      "it": "È tardi e vuoi tornare in albergo in taxi.",
+      "ru": ""
+    },
+    "category": "taxi",
+    "difficulty": 3,
+    "steps": [
+      {
+        "id": "tx-1",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Buonasera! Dove andiamo?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Добрый вечер! Куда едем?",
+          "stressed": null,
+          "pronunciation": "dòbryj vècher! kudà jèdim",
+          "audioText": "Добрый вечер! Куда едем?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Che cosa ti chiede il tassista?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "Dove andiamo?",
+          "Ha contanti?",
+          "Quanti siete?",
+          "Ha fretta?"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tx-2",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Rispondi: «Mi porti a questo indirizzo.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Mi porti a questo indirizzo.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Отвезите меня по этому адресу.",
+          "stressed": null,
+          "pronunciation": "atvizìte minjà pa ètamu àdrisu",
+          "audioText": "Отвезите меня по этому адресу.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "аэропорт",
+            "где"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tx-3",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Chiedi prima il prezzo: «Quanto costa arrivare in centro?»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Quanto costa arrivare in centro?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Сколько стоит доехать до центра?",
+          "stressed": null,
+          "pronunciation": "skòl'ka stòit dajèhat da tsèntra",
+          "audioText": "Сколько стоит доехать до центра?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "где",
+            "аэропорта"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tx-4",
+        "kind": "comprehension",
+        "npcIt": {
+          "text": "Ottocento rubli. Andiamo?",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "npcRu": {
+          "text": "Восемьсот рублей. Поехали?",
+          "stressed": null,
+          "pronunciation": "vasimsòt rubljèj. pajèhali",
+          "audioText": "Восемьсот рублей. Поехали?",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "prompt": {
+          "it": "Quanto ti ha chiesto?",
+          "ru": ""
+        },
+        "targetIt": null,
+        "targetRu": null,
+        "distractors": {},
+        "optionsIt": [
+          "800 rubli",
+          "80 rubli",
+          "8000 rubli",
+          "180 rubli"
+        ],
+        "optionsRu": [],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tx-5",
+        "kind": "choice",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Accetti. Cosa dici?",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Va bene, andiamo.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Хорошо, поехали.",
+          "stressed": null,
+          "pronunciation": "harashò, pajèhali",
+          "audioText": "Хорошо, поехали.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [
+          "Хорошо, поехали.",
+          "Нет, спасибо.",
+          "Я не понимаю.",
+          "Где метро?"
+        ],
+        "correctOption": 0,
+        "hint": null
+      },
+      {
+        "id": "tx-6",
+        "kind": "build",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Siete arrivati: «Si fermi qui, per favore.»",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Si fermi qui, per favore.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Остановите здесь, пожалуйста.",
+          "stressed": null,
+          "pronunciation": "astanavìte zdes, pazhàlusta",
+          "audioText": "Остановите здесь, пожалуйста.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {
+          "ru": [
+            "там",
+            "быстрее"
+          ]
+        },
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      },
+      {
+        "id": "tx-7",
+        "kind": "pronounce",
+        "npcIt": null,
+        "npcRu": null,
+        "prompt": {
+          "it": "Lascia la mancia: dillo ad alta voce.",
+          "ru": ""
+        },
+        "targetIt": {
+          "text": "Tenga il resto.",
+          "stressed": null,
+          "pronunciation": null,
+          "audioText": null,
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "targetRu": {
+          "text": "Сдачи не надо.",
+          "stressed": null,
+          "pronunciation": "sdàchi ni nàda",
+          "audioText": "Сдачи не надо.",
+          "frequencyRank": 9999,
+          "example": null
+        },
+        "distractors": {},
+        "optionsIt": [],
+        "optionsRu": [],
+        "correctOption": null,
+        "hint": null
+      }
+    ]
+  }
+]
