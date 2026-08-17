@@ -11,26 +11,109 @@ native iPhone app now lives in [`ios/`](ios/) on the `ios-swift` branch.
 
 ## 📱 Native iOS app
 
-SwiftUI, no WebView. Genuinely bidirectional: Italian → Russian and Russian →
-Italian are separate learning tasks over the same content, with separate
-progress, separate warm-ups and separate scenario sets.
+**Status: working and verified on the simulator, on the `ios-swift` branch. Not merged into `main`, not shipped to the App Store.**
+
+SwiftUI, no WebView, no React Native, no Capacitor. The app lives in [`ios/`](ios/).
+
+It is genuinely **bidirectional**, which is the main departure from Web V1: that
+version taught *Russian, explained in Italian*. Here Italian → Russian and
+Russian → Italian are two separate learning tasks over the same content, with
+separate progress, separate warm-ups, separate scenario sets and separate
+interface languages.
+
+### Architecture
+
+```
+ios/
+├── project.yml            # XcodeGen spec — the source of truth
+├── SpasiBoh.xcodeproj     # GENERATED, gitignored, never hand-edited
+├── SpasiBohCore/          # SwiftPM package — all logic, no UI
+│   ├── Models/ Engine/ Content/ Text/ Progress/
+│   └── Resources/Content/*.json
+├── SpasiBoh/              # App target — SwiftUI, AVFoundation, Speech
+├── SpasiBohTests/         # App-target unit tests
+├── SpasiBohUITests/       # End-to-end tests against the running app
+└── Tools/                 # content extraction and authoring scripts
+```
+
+`SpasiBohCore` **cannot import SwiftUI** — the compiler enforces the boundary, so
+the engine is testable in under a second with no simulator, and the app target
+holds only presentation and platform services.
+
+Design notes, the bidirectional model, the engine constants and the Swift
+concurrency rules for the speech callbacks are in
+[`docs/ios/ARCHITECTURE.md`](docs/ios/ARCHITECTURE.md).
+
+### Build and run
+
+The Xcode project is a build artifact, so generating it is the mandatory first
+step after cloning:
 
 ```bash
-brew install xcodegen                  # once
-cd ios && xcodegen generate            # required after cloning — the project is generated
+brew install xcodegen                  # once — pinned at 2.46.0
+cd ios && xcodegen generate            # after cloning, or after editing project.yml
+```
 
-cd ios/SpasiBohCore && swift test      # engine + content
-swift run validate-content             # content report
+Then, from the repository root:
 
+```bash
+# Engine and content — fast, no simulator
+cd ios/SpasiBohCore && swift test
+swift run validate-content             # content report; non-zero exit on problems
+
+# Full app build and tests
 xcodebuild -project ios/SpasiBoh.xcodeproj -scheme SpasiBoh \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=26.5' test
 ```
 
-`ios/SpasiBoh.xcodeproj` is generated from `ios/project.yml` and is gitignored —
-edit the spec, never the project.
+Requires **Xcode 26.6**, iOS SDK 26.5. Deployment target **iOS 26.0**.
+Edit `ios/project.yml`, never the generated project.
 
-Design notes, the bidirectional model and the engine constants are in
-[`docs/ios/ARCHITECTURE.md`](docs/ios/ARCHITECTURE.md).
+### Tests
+
+| Suite | Count | What it covers |
+|---|---|---|
+| `SpasiBohCoreTests` | 101 | mastery/scheduling, seeded RNG, exercise generation, Unicode safety, content validation |
+| `SpasiBohTests` | 6 | app-target units, incl. speech-callback concurrency regressions |
+| `SpasiBohUITests` | 7 | onboarding both directions, a full session, scenarios, collection, relaunch persistence, speech authorization |
+
+All green on iPhone 17 Pro / iOS 26.5. Content validation runs **inside** the
+test suite, so invalid content fails the build rather than shipping as an
+exercise with no correct answer.
+
+### Content
+
+| Asset | Count | Origin |
+|---|---|---|
+| Concepts | 598 | extracted from Web V1 |
+| Sentences | 214 | extracted from Web V1 |
+| Cyrillic letters | 33 | extracted from Web V1 |
+| Italian pronunciation patterns | 21 | new |
+| Scenarios | 20 (10 Russia, 10 Italy) | 10 extracted, 10 new |
+| Idioms | 12 | new |
+| Culture cards | 12 | new, each with a source |
+| Language tips | 14 | new |
+
+The Italy scenarios are written around Italian situations — paying at the cassa
+before ordering at the bar, validating a regional ticket, the coperto on a bill —
+not translated from the Moscow set.
+
+### Current limitations
+
+Stated plainly rather than left to be discovered:
+
+* **Music & Culture is deliberately not built.** See below.
+* **Italian pronunciation data is sparse**: 34 of 598 concepts carry a hint and 6
+  carry an explicit stress mark. This is partly by design — Italian orthography is
+  largely phonetic, and the validator *rejects* a hint that merely restates the
+  spelling — but enriching the genuine traps is the largest remaining content job.
+* **No explicit Dynamic Type pass.** Tap targets, accessibility labels and text
+  scaling are in place; the accessibility text sizes have not been swept.
+* **Speech recognition is only simulator-verified.** Microphone input in the
+  simulator is unreliable, so on-device accuracy is unproven.
+* Layout checked on iPhone 17e and 17 Pro Max, in both directions. Not checked on
+  iPad.
+* Not merged into `main`, and no App Store build.
 
 ---
 
@@ -318,6 +401,13 @@ Short interactive activities based on legally reusable music and cultural materi
 
 Only public-domain, appropriately licensed or otherwise legally usable material will be included.
 
+> **Deferred in the native app, on purpose.** The licensing constraint above is
+> the whole difficulty: the recording rights and the composition rights are
+> separate, and neither could be verified for this milestone. Shipping a
+> plausible-looking catalogue without confirmed licences would be worse than
+> shipping nothing, so the feature is not built. The data model treats
+> composition and recording rights as separate fields for when it is.
+
 ### Progression 🔥
 
 Future progression may include:
@@ -339,9 +429,10 @@ No “wait until tomorrow because you made too many mistakes”.
 
 ## 📱 Native iPhone version
 
-The long-term target is a **native Swift / SwiftUI version for iPhone**.
+**This is now built** — see [Native iOS app](#-native-ios-app) above. This section
+records what the web prototype was *for*.
 
-The web version exists partly to validate:
+The web version existed partly to validate:
 
 * learning mechanics;
 * exercise design;
@@ -351,15 +442,11 @@ The web version exists partly to validate:
 
 before rebuilding the final experience natively in Xcode.
 
-The iOS version is expected to use native Apple technologies for:
-
-* SwiftUI interface;
-* local persistence;
-* speech recognition;
-* text-to-speech;
-* haptics;
-* animations;
-* offline learning.
+The native version was expected to use Apple technologies for the SwiftUI
+interface, local persistence, speech recognition, text-to-speech, haptics,
+animations and offline learning. All of these are in the shipped `ios-swift`
+build except haptics-heavy animation polish, which is deliberately restrained:
+a buzz on every tap is noise, and noise gets the whole app muted.
 
 ---
 
